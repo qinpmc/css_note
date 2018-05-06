@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>margin 合并问题</title>
     <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
         div{
             background: red;
             height: 100px;
@@ -13,8 +17,8 @@
     </style>
 </head>
 <body>
-<div class="father">    <div class="son" style="margin-top:80px;"></div> </div>
-<div class="father" style="margin-top:80px;">    <div class="son"></div> </div>
-<div class="father" style="margin-top:80px;">    <div class="son" style="margin-top:80px;border: solid 1px blue"></div> </div>
+<!--<div class="father">    <div class="son" style="margin-top:80px;"></div> </div>
+<div class="father" style="margin-top:80px;">    <div class="son"></div> </div>-->
+<div class="father" style="margin-top:80px;">    <div class="son" style="margin-top:80px;"></div> </div>
 </body>
 </html>

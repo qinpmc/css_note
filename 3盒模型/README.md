@@ -76,8 +76,41 @@
 <div class="father" style="margin-top:80px;">    <div class="son"></div> </div>
 <div class="father" style="margin-top:80px;">    <div class="son" style="margin-top:80px;"></div> </div>
 ```
-
-
+3. margin负边距的作用
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>margin负边距</title>
+    <style type="text/css">
+        .wrapper{
+            width: 1000px; /*父元素不加该属性，下方 margin: 50px auto起不到居中效果*/
+            margin: 50px auto;
+        }
+        .left{
+            float: left;
+            height: 400px;
+            width: 200px;
+            background: rebeccapurple;
+        }
+        .right{
+            float: left;
+            height: 400px;
+            width: 400px;
+            background: lightseagreen;
+            margin-left: -600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
+```
 
 
 
