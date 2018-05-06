@@ -135,7 +135,8 @@
 * ![伪类选择器效果](./res2.png)
 
 <hr>
-### 示例
+
+### 示例  
 ```
 <!DOCTYPE html>
 <html lang="en">
