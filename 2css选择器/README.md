@@ -118,15 +118,24 @@
         li:not(:last-child){
             border:solid 2px blue
         }
+        /*该选择器指定的是 p为第一个子元素的元素，并非是指p的第一个子元素*/
+        p:first-child{
+            background: brown;
+        }
     </style>
 </head>
 <body>
-<a href="http://www.sina.com">跳转去百度</a>
-<ul>
-    <li>li1</li>
-    <li>li2</li>
-    <li>li3</li>
-</ul>
+    <a href="http://www.sina.com">跳转去百度</a>
+    <ul>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+    <div>
+        <p>this is a <span>test1</span> paragrph</p>
+        <p>this is a <span>test2</span> paragrph</p>
+        <p>this is a paragrph</p>
+    </div>
 </body>
 </html>
 ```
