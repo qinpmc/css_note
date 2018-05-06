@@ -134,5 +134,48 @@
 ### 效果
 * ![伪类选择器效果](./res2.png)
 
+<hr>
+### 示例
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0px;
+            paddong:0px;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+/*        li.suf:after{
+            content: " |";
+            margin:2px;
+        }*/
+        li:after{
+            content:"";
+            display: inline-block;
+            width:2px;
+            height: 20px;
+            background: black;
+            margin: 0 8px;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="suf">我是测试</li>
+        <li>我是测试</li>
+    </ul>
+</body>
+</html>
+```
+
+### 效果
+* ![伪类选择器效果](./res3.png)
 
 
