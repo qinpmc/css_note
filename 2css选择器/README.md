@@ -189,6 +189,30 @@
 ### 效果
  ![伪类选择器效果](./res3.png)
 
+### 选择器权重
+* !import 重要声明，权重最重，如 h1{ color:gray !import; background:red !import;}
+* 行内样式，权重为1000
+* id 选择器 ，权重为100
+* 类选择器、属性选择器、伪类选择器，权重为10
+* 元素选择器、伪元素选择器，权重为1
+* 通配符选择器 ，权重0
+* 继承的样式权重，没有特殊性，甚至连0都没有
+
+### 继承
+
+#### 不可继承的css属性
+1. display
+2. 文本属性（vertical-align,text-decoration,text-shadow,white-space等）
+3. 盒模型属性（border、margin、padding、width、height）
+4. 背景属性（background）
+5. 定位属性，如float、clear、position、top、right、bottom、left、overflow、clip、z-index等
+6. 生成内容属性，如content、counter-reset、counter-increment
+7. 轮廓样式属性，outline
+
+#### 可继承的css属性
+1. font
+2. 文本系列属性，如text-indent、text-align、line-hight、direction、color等
+
 
 
 
