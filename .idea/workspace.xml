@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1css基本概念/README.md" afterPath="$PROJECT_DIR$/1css基本概念/README.md" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +40,8 @@
           <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4360465">
-                  <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+                <state vertical-scroll-proportion="0.29069766">
+                  <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
@@ -298,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4360465">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.29069766">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
           <folding />
         </state>
       </provider>
