@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2css选择器/1选择器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2css选择器/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2css选择器/2选择器.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2css选择器/README.md" afterPath="$PROJECT_DIR$/2css选择器/README.md" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +28,17 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2css选择器/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62057334">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.57841486">
+              <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="res1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2css选择器/res1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -40,6 +47,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2选择器.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2css选择器/2选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -66,6 +83,7 @@
         <option value="$PROJECT_DIR$/1css基本概念/1css引入.html" />
         <option value="$PROJECT_DIR$/1css基本概念/README.md" />
         <option value="$PROJECT_DIR$/2css选择器/1选择器.html" />
+        <option value="$PROJECT_DIR$/2css选择器/2选择器.html" />
         <option value="$PROJECT_DIR$/2css选择器/README.md" />
       </list>
     </option>
@@ -76,8 +94,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="296" />
-    <option name="y" value="167" />
+    <option name="x" value="388" />
+    <option name="y" value="90" />
     <option name="width" value="1936" />
     <option name="height" value="754" />
   </component>
@@ -219,7 +237,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="296" y="167" width="1936" height="754" extended-state="0" />
+    <frame x="388" y="90" width="1936" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -285,6 +303,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2css选择器/res1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2css选择器/attrselector.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2css选择器/1选择器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -293,10 +321,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2css选择器/2选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2css选择器/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62057334">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.57841486">
+          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
           <folding />
         </state>
       </provider>

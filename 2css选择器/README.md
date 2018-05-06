@@ -51,3 +51,74 @@
 * ![属性选择器效果](./res1.png)
 
 
+## 复合选择器
+* 并集选择器，如a,p{ color:red;}
+* 后代选择器，如p span{ color:red;},包含p中任意的span，不仅仅是子元素
+* 子选择器，如 p>span{ color:red;}
+* 相邻兄弟选择器，如p+span{ color:red;}
+* 普通兄弟选择器，如p~span{ color:red;}，包含所有的兄弟，不仅仅是相邻的，只包括p后面的兄弟元素，不包含p前面的兄弟
+
+## 伪类选择器
+### 动态伪类选择器
+* :linked
+* :visited
+* :hover
+* :active
+* :focus
+
+### 否定选择器
+* :not
+
+### 伪元素选择器
+* ::first-line
+* ::first-letter
+* :before :after ,会生成内容，如 a:before{content:"click here" }
+
+### 结构性伪元素选择器
+* :first-child
+* :last-child
+* :only-child ,匹配父元素包含的唯一子元素
+* :only-of-type
+* :nth-child(n),父元素的第n个子元素
+* :nth-last-child(n),父元素的倒数第n个子元素
+
+### 示例
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        a{
+            text-decoration: none;
+        }
+        a:link{color:red}
+        a:hover{text-decoration:underline}
+        a:active{background: yellow}
+        a:visited{color:grey}
+
+        li{
+            border:solid 2px red
+        }
+        li:not(:last-child){
+            border:solid 2px blue
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.sina.com">跳转去百度</a>
+<ul>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+</ul>
+</body>
+</html>
+```
+
+### 效果
+* ![伪类选择器效果](./res2.png)
+
+
+

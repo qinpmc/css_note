@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        a{
+            text-decoration: none;
+        }
+        a:link{color:red}
+        a:hover{text-decoration:underline}
+        a:active{background: yellow}
+        a:visited{color:grey}
+
+        li{
+            border:solid 2px red
+        }
+        li:not(:last-child){
+            border:solid 2px blue
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.sina.com">跳转去百度</a>
+<ul>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+</ul>
+</body>
+</html>
