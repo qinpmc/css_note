@@ -8,7 +8,7 @@
 总元素的宽度=宽度+左填充+右填充+左边框+右边框+左边距+右边距
 总元素的高度=高度+顶部填充+底部填充+上边框+下边框+上边距+下边距
 
-### 盒模型的小应用-制作三角形和箭头  
+### 盒模型的小应用-制作三角形和箭头
 
 ```
 <!DOCTYPE html>
@@ -59,6 +59,23 @@
 ```
 ### 效果图
  ![盒模型](./box2.png)
+
+## margin 的问题
+
+1. 父级和第一个/最后一个子元素，它们之间的margin值取2者间较大的那个margin值
+2. 父级和第一个/最后一个子元素, 如下3 种设置是等效的
+    - 对于 margin-top 合并，可以进行如下操作（满足一个条件即可）：
+    - 父元素设置为块状格式化上下文元素，如 overflow: hidden
+    - 父元素设置 border-top 值；
+    - 父元素设置 padding-top 值；
+    - 父元素和第一个子元素之间添加内联元素进行分隔。
+
+
+```
+<div class="father">    <div class="son" style="margin-top:80px;"></div> </div>
+<div class="father" style="margin-top:80px;">    <div class="son"></div> </div>
+<div class="father" style="margin-top:80px;">    <div class="son" style="margin-top:80px;"></div> </div>
+```
 
 
 
