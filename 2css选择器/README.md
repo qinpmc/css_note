@@ -67,20 +67,34 @@
 * :focus
 
 ### 否定选择器
-* :not
+* :not，css3
 
 ### 伪元素选择器
 * ::first-line
 * ::first-letter
 * :before :after ,会生成内容，如 a:before{content:"click here" }
 
-### 结构性伪元素选择器
+### 结构性伪类选择器
 * :first-child
-* :last-child
-* :only-child ,匹配父元素包含的唯一子元素
+* :last-child ，css3
+* :only-child ,匹配父元素包含的唯一子元素，css3
 * :only-of-type
-* :nth-child(n),父元素的第n个子元素
-* :nth-last-child(n),父元素的倒数第n个子元素
+* :nth-child(n),父元素的第n个子元素，css3
+* :nth-last-child(n),父元素的倒数第n个子元素，css3
+
+### UI伪类选择器
+* :enabled
+* :disabled
+* :checked
+* :valid
+* :invalid
+* :rquired
+* :default
+* :in-range
+* :out-of-range
+* :optional
+
+
 
 ### 示例
 ```
