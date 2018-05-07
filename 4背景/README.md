@@ -114,3 +114,14 @@
    contain（等比拉伸或压缩图片，使得图片某一条边达到容器的边，背景图片始终被包含在容器中）
 * fixed：背景图像是固定的
 * inherit：继承
+* css3新增（不能放入background复合属性）
+
+## 背景裁剪background-clip
+* 取值，padding-box（裁剪掉border部分），border-box（裁剪掉border外部分，实际全保留）
+  content-box（裁减掉border、padding覆盖的部分）、text
+* css3新增（不能放入background复合属性）
+
+## 背景裁剪background-origin
+* 取值，取值，padding-box（从padding区域开始显示背景图片，含padding），border-box（从border区域开始显示背景图片，含border）
+       content-box（从content区域开始显示背景图片，含content）
+* css3新增（不能放入background复合属性）
