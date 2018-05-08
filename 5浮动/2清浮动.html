@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        .wrapper{
+            border: solid 10px darkcyan;
+            /*height:200px ;*/
+            /*overflow: auto;*/
+            /*overflow: hidden;*/
+            /*overflow:visible; 不可行*/
+            /*overflow:scroll; 不可行,清除了浮动，但有滚动条*/
+
+        }
+/*        .wrapper:after{
+            display: block;
+            clear: both;
+            content: "";
+        }*/
+
+        .clearfix:after{ /*可以多处使用----项目常用方式*/
+            display: block;
+            clear: both;
+            content: "";
+
+            /*低版本浏览器 默认有height：1px*/
+            height: 0;
+            font-size: 0;
+            overflow: hidden;
+            visibility: hidden;
+        ;
+        }
+        .left{
+            float: left;
+            height:200px;
+            width: 200px;
+            background: darkgoldenrod;
+        }
+        .right{
+            float: left;
+            height:200px;
+            width: 200px;
+            background: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper clearfix">
+        <div class="left"></div>
+        <div class="right"></div>
+        <!--<div style="clear: both"></div>-->
+    </div>
+
+</body>
+</html>
