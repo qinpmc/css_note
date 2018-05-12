@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6定位/6z-index.html" afterPath="$PROJECT_DIR$/6定位/6z-index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6定位/README.md" afterPath="$PROJECT_DIR$/6定位/README.md" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6定位/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.9776535">
+            <state vertical-scroll-proportion="0.0">
               <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
               <folding />
             </state>
@@ -54,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6z-index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="6z-index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6定位/6z-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.58072007">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -123,8 +122,8 @@
         <option value="$PROJECT_DIR$/6定位/3relative.html" />
         <option value="$PROJECT_DIR$/6定位/4fixed.html" />
         <option value="$PROJECT_DIR$/6定位/5z-index.html" />
-        <option value="$PROJECT_DIR$/6定位/6z-index.html" />
         <option value="$PROJECT_DIR$/6定位/README.md" />
+        <option value="$PROJECT_DIR$/6定位/6z-index.html" />
       </list>
     </option>
   </component>
@@ -674,18 +673,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6定位/6z-index.html">
+    <entry file="file://$PROJECT_DIR$/6定位/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6定位/README.md">
+    <entry file="file://$PROJECT_DIR$/6定位/6z-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.9776535">
-          <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.58072007">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding />
         </state>
       </provider>
