@@ -154,8 +154,64 @@
 * 可以设置z-index改变层级，值越大，越在上层
 
 ## z-index
-1.
+1. 默认顺序是后面的定位元素覆盖前面的定位元素；
+2. 可以用z-index 属性修改定位元素的层级关系；
+3. 所有定位元素的z-index默认值是一样的；
+4. z-index支持负数；
+5. 一般都是同级元素进行层级的比较，子元素和父元素比较，z-index并不遵守 值越大 约在上的规律，子元素总在上面
+6. 参照物是相对定位或绝对定位时，父元素没有z-index值，自级元素的z-index值会进行比较；如果父元素均有z-index,
+先比较父元素之间的z-index（第一个父元素的z-index大于第二个父元素的z-index，第一个父元素的子元素的z-index小于
+第二个父元素的子元素的z-index，第一个元素及其子元素仍会覆盖第二个元素及其子元素）
 
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .parent1{
+            width: 400px;
+            height: 400px;
+            background: blue;
+            position: absolute;
+            z-index: 2;
+        }
+        .son1{
+            position: relative;
+            z-index: 1;
+            width: 200px;
+            height: 200px;
+            background: white;
+        }
+        .parent2{
+            width: 300px;
+            height: 300px;
+            background: red;
+            position: absolute;
+            z-index: 1;
+        }
+        .son2{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            z-index: 2;
+            background: black;
+        }
+
+    </style>
+</head>
+<body>
+<div class="parent1">
+    <div class="son1"></div>
+</div>
+<div class="parent2">
+    <div class="son2"></div>
+</div>
+</body>
+</html>
+```
+ ![相对定位1](./zindex.png)
 
 
