@@ -212,6 +212,6 @@
 </body>
 </html>
 ```
- ![相对定位1](./zindex.png)
+ ![zindex](./z-index.png)
 
 
