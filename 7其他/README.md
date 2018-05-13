@@ -16,5 +16,5 @@ Block Formatting Context，中文直译为块级格式上下文。BFC就是一�
 ## 创建BFC：
 1. float属性不为none
 2. overflow不为visible(可以是hidden、scroll、auto)
-3. position为absolute或fixed
+3. position为absolute或fixed、sticky
 4. display为inline-block、table-cell、table-caption
