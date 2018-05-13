@@ -82,5 +82,68 @@ footer .footer-logo{
     width: 776px;
     height: 117px;
     background: url("../images/text-logo.png");
-    margin:0 auto;
+
+}
+
+.index-banner-text .banner-info{
+    margin-top:20px;
+    text-align: center;
+}
+.index-banner-text .banner-info .txt{
+    margin:0 26px;
+}
+.index-banner-text .banner-info .line{
+    display: inline-block;
+    width: 40px;
+    border-top:1px solid #fff;
+    vertical-align: middle;
+}
+.index-menu{
+    position: relative;
+    border-top: 4px solid #F34949;
+
+
+}
+.index-menu .menu-tips{
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    width: 156px;
+    height: 75px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    margin-left: -51px;
+    background:#F34949 ;
+
+}
+.index-menu .menu-tips:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.index-menu .menu-list{
+    margin-top:150px;
+    color:#555;
+    overflow: hidden;
+
+}
+.index-menu .menu-list ul{
+    width: 1160px;
+}
+.index-menu .menu-item{
+    float: left;
+    width: 520px;
+    margin-left: 60px;
+    margin-bottom: 56px;
+}
+.index-menu h4,.index-menu p{
+    color:#3b3b3b;
 }
