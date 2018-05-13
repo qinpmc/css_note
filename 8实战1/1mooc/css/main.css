@@ -21,6 +21,9 @@ footer{
     width: 182px;
     height: 54px;
 }
+.public-container .header-nav a:hover{
+    text-decoration: underline;
+}
 .public-container .header-nav{
     float: right;
 
@@ -31,16 +34,17 @@ footer{
     margin-left: 49px;
 }
 
-.public-container .header-nav .a{
+.public-container .header-nav a{
     color: #3b3b3b;
     font-size: 14px;
     line-height: 18px;
+
 }
 
 footer .footer-col{
     color: #fff;
     float: left;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 30px;
     width: 230px;
     margin-right: 60px;
@@ -53,4 +57,30 @@ footer .footer-logo{
     height: 55px;
     background: url("../images/index-footer-logo.png") no-repeat;
     margin-top:-15px;
+}
+.index-banner{
+    position:relative;
+    width: 100%;
+    background: #b3b3b3;
+}
+ .index-banner-bg{
+    width: 1500px;
+    height: 570px;
+    margin: 0 auto;
+}
+
+.index-banner img{
+    background: url("../images/banner.jpg");
+}
+.index-banner-text{
+    position: absolute;
+    top:210px;
+    left:50%;
+    margin-left: -388px;
+}
+.index-banner-text .text-logo{
+    width: 776px;
+    height: 117px;
+    background: url("../images/text-logo.png");
+    margin:0 auto;
 }
