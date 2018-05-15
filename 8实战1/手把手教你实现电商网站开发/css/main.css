@@ -1,0 +1,58 @@
+.container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+.collection a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.topHeader .collection{
+    float: left;
+    background: url("../images/collection.png") no-repeat center left;
+    padding-left: 17px;
+}
+.topHeader .loginArea{
+    float: right;
+    padding-right: 21px;
+}
+.loginArea a{
+    line-height: 30px;
+}
+.bottomHeader{
+    background: #1d7ad9;
+    height: 85px;
+}
+
+.bottomHeader .logo{
+    margin-top:13px;
+    float: left;
+}
+.bottomHeader .search{
+    float: left;
+    vertical-align: middle;
+    margin-top: 23px;
+}
+.bottomHeader .search input[type="text" ]{
+    width:360px;
+    height: 35px;
+    margin-left: 185px;
+}
+.bottomHeader .search input[type="button" ]{
+    width:69px;
+    height: 35px;
+    background: #ff8c00;
+}
+
+.bottomHeader .cart{
+    float: right;
+    margin-top: 23px;
+    width: 145px;
+    height: 35px;
+    background: #ff8c00 url("../images/cart.png") no-repeat 10px 8px;
+}
+.bottomHeader .cart span{
+    line-height: 35px;
+    margin-left: 40px;
+}
