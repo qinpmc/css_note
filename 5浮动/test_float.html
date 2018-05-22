@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .out{
+            width: 189px;
+            background-color: lightblue;
+            float: left;
+        }
+        h3{
+            font: 15px  arial;
+            height: 35px;
+            margin-left:39px;
+            vertical-align: middle;
+            line-height: 35px;
+            float: left;
+            background-color: rebeccapurple;
+            vertical-align: top  /*解决父类div.out 高度多出几像素*/
+        }
+        i{
+            display: inline-block; /*带来问题：父类div.out 高度多出几像素*/
+            height: 35px;
+            width: 11px;
+            background-color: peru;
+            vertical-align: top /*解决父类div.out 高度多出几像素*/
+        }
+    </style>
+</head>
+<body>
+    <div class="out">
+        <h3>全部商品分类</h3><i></i>
+    </div>
+</body>
+</html>

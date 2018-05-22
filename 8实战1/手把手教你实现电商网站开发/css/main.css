@@ -38,11 +38,13 @@
     width:360px;
     height: 35px;
     margin-left: 185px;
+    vertical-align:middle;  /* 解决 input与button 对齐*/
 }
 .bottomHeader .search input[type="button" ]{
     width:69px;
     height: 35px;
     background: #ff8c00;
+    vertical-align:middle;
 }
 
 .bottomHeader .cart{
@@ -55,4 +57,44 @@
 .bottomHeader .cart span{
     line-height: 35px;
     margin-left: 40px;
+}
+.nav{
+    background: #1369c0;
+}
+.nav .allGoods h3 {
+    font: 15px  arial;
+    height: 35px;
+    margin-left:39px;
+    line-height:35px;
+    float: left;
+    vertical-align: top; /*  解决父类div.allGoods 高度多出几像素*/
+}
+.nav .allGoods{
+    width: 189px;
+}
+
+.nav .allGoods i{
+    background: url("../images/arrow.png") no-repeat left center;
+    display: inline-block;
+    height: 35px;
+    width: 11px;
+    margin-left: 11px;
+    vertical-align: top; /*  解决父类div.allGoods 高度多出几像素*/
+}
+.nav .navbar ul,.nav .allGoods{
+    float: left;
+}
+.nav .navbar li{
+    font: 14px  arial;
+    height: 35px;
+    float: left;
+    line-height:35px;
+    width: 100px;
+    text-align: center;
+}
+.nav .navbar a{
+    color: white;
+}
+.nav .navbar .active{
+    background: #4593fd;
 }
