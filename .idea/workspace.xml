@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2css选择器/5html.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2css选择器/6html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7其他/3border-radius.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2css选择器/1选择器.html" afterPath="$PROJECT_DIR$/2css选择器/1选择器.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2css选择器/2选择器.html" afterPath="$PROJECT_DIR$/2css选择器/2选择器.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2css选择器/4选择器.html" afterPath="$PROJECT_DIR$/2css选择器/4选择器.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2css选择器/README.md" afterPath="$PROJECT_DIR$/2css选择器/README.md" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,14 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6html.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6html.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2css选择器/6html.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28026906">
+            <state vertical-scroll-proportion="-7.352941">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3border-radius.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7其他/3border-radius.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27130044">
+              <caret line="41" column="50" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="88" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,6 +121,7 @@
         <option value="$PROJECT_DIR$/2css选择器/5html.html" />
         <option value="$PROJECT_DIR$/2css选择器/README.md" />
         <option value="$PROJECT_DIR$/2css选择器/6html.html" />
+        <option value="$PROJECT_DIR$/7其他/3border-radius.html" />
       </list>
     </option>
   </component>
@@ -125,8 +131,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="868" />
-    <option name="y" value="164" />
+    <option name="x" value="114" />
+    <option name="y" value="119" />
     <option name="width" value="1936" />
     <option name="height" value="1087" />
   </component>
@@ -198,7 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2css选择器" />
+              <option name="myItemId" value="7其他" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +296,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="868" y="164" width="1936" height="1087" extended-state="0" />
+    <frame x="114" y="119" width="1936" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -330,13 +336,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4背景/2背景图片.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4背景/1背景颜色.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -672,11 +671,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2css选择器/6html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28026906">
+        <state vertical-scroll-proportion="-7.352941">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7其他/3border-radius.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27130044">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
