@@ -12,6 +12,13 @@
 
 * ![属性选择器](./attrselector.png)
 
+E[attr|=val] :只能等于val，或以val-开头
+E[attr*=val] :包含val字符串
+E[attr~=val] :属性值多个，有一个是val；或仅有val
+E[attr^=val] :以val开头
+E[attr$=val] :以val结尾
+
+
 ### 示例
 ```
 <!DOCTYPE html>
@@ -79,8 +86,11 @@
 * :last-child ，css3
 * :only-child ,匹配父元素包含的唯一子元素，css3
 * :only-of-type
-* :nth-child(n),父元素的第n个子元素，css3
+* :nth-child(n),父元素的第n个子元素（从1开始），css3
+* :nth-child(2n),父元素的偶数元素（从1开始），css3
+* :nth-child(2n+1),父元素的奇数元素（从1开始），css3
 * :nth-last-child(n),父元素的倒数第n个子元素，css3
+* :nth-of-type ：同上nth-child，区别是区分类型（先对父元素下子元素分类，然后取不同子元素的对应的序号）
 
 ### UI伪类选择器
 * :enabled

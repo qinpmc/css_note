@@ -8,15 +8,16 @@
             text-decoration: none;
         }
         a:link{color:red}
+        a:visited{color:grey}
         a:hover{text-decoration:underline}
         a:active{background: yellow}
-        a:visited{color:grey}
+
 
         li{
             border:solid 2px red
         }
-        li:not(:last-child){
-            border:solid 2px blue
+        li:not(:last-child){  /*不是最后一个子元素的li,括号不能省略*/
+            border:solid 4px yellow;
         }
         /*该选择器指定的是 p为第一个子元素的元素，并非是指p的第一个子元素*/
         p:first-child{
