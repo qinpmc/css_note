@@ -56,6 +56,15 @@ linear-gradient
         }
 ```
 ## 径向渐变
+radial-gradient([[<shape>||<size>][at <position>]?,|at <position>]?<color-stop>[<color-stop>]+)
+1. 从一个点向多方向颜色渐变
+2. shape：ellipse、circle或设置水平半径，垂直半径
+3. size：渐变的大小，即渐变到哪里停止
+   closest-side;farthest-side;closest-corner;farthest-corner
+4. position:关键词|数值|百分比
+5. 重复的径向渐变
+
+
 
 
 
