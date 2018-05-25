@@ -1,4 +1,5 @@
 # 渐变
+## 线性渐变
 linear-gradient
 1. 只能用在背景上
 2. 颜色沿着一条直线轴变化
@@ -54,3 +55,7 @@ linear-gradient
         linear-gradient(0deg,red 10px,green 10px); /*0deg:水平方向 （从左到右）,无渐变，10px前纯红色，10px后面纯绿色*/
         }
 ```
+## 径向渐变
+
+
+
