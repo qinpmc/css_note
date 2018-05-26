@@ -101,27 +101,27 @@
 ### 效果
  ![背景图片](./bgimg.png)
 
-## 背景位置background-attachment
+## background-attachment
 * 指定背景图片是否固定或随着页面的其余部分滚动
 * scroll：背景图片随页面的其余部分滚动。这是默认
 * fixed：背景图像是固定的
 * inherit：继承
 
-## 设置对象的背景图像尺寸background-size
+## background-size
 * 指定对象的背景图片的大小
-* 可取的值：长度（如 100px 200px,只背景图片实际的大小) ,百分比（指容器的宽高百分比）、auto（背景图片原尺寸）
+* 可取的值：长度（如 100px 200px,指背景图片实际的大小) ,百分比（指容器的宽高百分比）、auto（背景图片原尺寸）
    cover（等比拉伸或压缩图片，使得图片完全覆盖容器，可能超出容器）、
    contain（等比拉伸或压缩图片，使得图片某一条边达到容器的边，背景图片始终被包含在容器中）
 * fixed：背景图像是固定的
 * inherit：继承
 * css3新增（不能放入background复合属性）
 
-## 背景裁剪background-clip
+## background-clip
 * 取值，padding-box（裁剪掉border部分），border-box（裁剪掉border外部分，实际全保留）
   content-box（裁减掉border、padding覆盖的部分）、text
 * css3新增（不能放入background复合属性）
 
-## 背景裁剪background-origin
-* 取值，取值，padding-box（从padding区域开始显示背景图片，含padding），border-box（从border区域开始显示背景图片，含border）
+## background-origin
+* 取值，取值，padding-box（从padding区域开始显示背景图片，含padding,默认值），border-box（从border区域开始显示背景图片，含border）
        content-box（从content区域开始显示背景图片，含content）
 * css3新增（不能放入background复合属性）

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/7渐变/2渐变.html" afterPath="$PROJECT_DIR$/7渐变/2渐变.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4背景/README.md" afterPath="$PROJECT_DIR$/4背景/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/7渐变/README.md" afterPath="$PROJECT_DIR$/7渐变/README.md" />
     </list>
     <ignored path="css_note.iws" />
@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7渐变/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7206704">
-              <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2渐变.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7渐变/2渐变.html">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4背景/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4117646">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="51" selection-end-column="9" />
+            <state vertical-scroll-proportion="-0.021314388">
+              <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -72,7 +72,6 @@
         <option value="$PROJECT_DIR$/4背景/2背景图片.html" />
         <option value="$PROJECT_DIR$/4背景/3背景位置.html" />
         <option value="$PROJECT_DIR$/4背景/4bg_size.html" />
-        <option value="$PROJECT_DIR$/4背景/README.md" />
         <option value="$PROJECT_DIR$/5浮动/1浮动.html" />
         <option value="$PROJECT_DIR$/5浮动/2清浮动.html" />
         <option value="$PROJECT_DIR$/5浮动/test_after.html" />
@@ -111,6 +110,7 @@
         <option value="$PROJECT_DIR$/7渐变/1渐变.html" />
         <option value="$PROJECT_DIR$/7渐变/2渐变.html" />
         <option value="$PROJECT_DIR$/7渐变/README.md" />
+        <option value="$PROJECT_DIR$/4背景/README.md" />
       </list>
     </option>
   </component>
@@ -120,10 +120,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="47" />
+    <option name="y" value="138" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -313,7 +313,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="47" y="138" width="1936" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -353,20 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5浮动/1浮动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.441177">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5浮动/2清浮动.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2058823">
@@ -658,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4背景/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6089386">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5浮动/5浮动测试_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.147059">
@@ -692,8 +670,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7渐变/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7206704">
-          <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4背景/bgcolor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4背景/bgimg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4背景/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.021314388">
+          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
           <folding />
         </state>
       </provider>
