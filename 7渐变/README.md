@@ -66,6 +66,56 @@ radial-gradient([[<shape>||<size>][at <position>]?,|at <position>]?<color-stop>[
    closest-side;farthest-side;closest-corner;farthest-corner
 4. position:关键词|数值|百分比
 5. 重复的径向渐变
+```
+        div{
+            height: 50px;
+            width: 30px;
+            background:blueviolet;
+            margin: 10px;
+            float: left;
+        }
+        div:nth-child(1){
+            background: radial-gradient(circle,red,green);
+            /*径向渐变形状为圆形*/
+        }
+
+        div:nth-child(2){
+            background: radial-gradient(ellipse,red,green);
+            /*径向渐变形状为椭圆形*/
+        }
+
+        div:nth-child(3){
+            background: radial-gradient(10px 5px,red,green);
+            /*径向渐变水平方向10px,垂直方向5px，默认在中心*/
+        }
+        div:nth-child(4){
+            background: radial-gradient(10px 5px at top ,red,green);
+            /*径向渐变水平方向10px,垂直方向5px，在顶端中心*/
+        }
+        div:nth-child(5){
+            background: radial-gradient(10px 5px at 10px 40px ,red,green);
+            /*径向渐变水平方向10px,垂直方向5px，在水平方向10px、垂直方向40px处*/
+        }
+        div:nth-child(6){
+            background: radial-gradient(closest-side ,red,green);
+            /*径向渐变到最近的边，在中心处*/
+        }
+
+        div:nth-child(7){
+            background: radial-gradient(closest-side at 15px 40px ,red,green);
+            /*径向渐变到最近的边(圆心在水平方向10px,垂直方向40px）*/
+        }
+        div:nth-child(8){
+            background: radial-gradient(circle at 10px 40px ,red 5px ,green 15px);
+        /*径向渐变圆心在水平方向10px,垂直方向40px,5px以内为纯红色，15px以外为纯绿色，中间为渐变*/
+        }
+        div:nth-child(9){
+            background: repeating-radial-gradient(circle at 0px 10px ,red 5px ,green 15px,yellow 25px);
+            /*径向渐变圆心在水平方向0px,垂直方向10px, 颜色根据半径值交替变化*/
+        }
+```
+ ![背景图片](./radial-gradient1.png)
+
 
 
 
