@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style></style>
+    <style>
+        div:nth-child(1){
+            width: 100px;
+            height: 100px;
+            background: red;
+           /* transition:width 500ms 1s ease-in-out;*/ /*鼠标划入、划出均执行该动画*/
+        }
+        div:nth-child(1):hover{
+            width: 200px;
+/*          transition-property:width;
+            transition-duration: 500ms;
+            transition-delay: 1s;
+            transition-timing-function:ease-in-out;*/
+            transition:width 500ms 1s ease-in-out; /*等价上面属性*/
+        }
+    </style>
 </head>
 <body>
-
+    <div></div>
+    <div></div>
 </body>
 </html>
