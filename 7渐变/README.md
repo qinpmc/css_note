@@ -55,6 +55,9 @@ linear-gradient
         linear-gradient(0deg,red 10px,green 10px); /*0deg:水平方向 （从左到右）,无渐变，10px前纯红色，10px后面纯绿色*/
         }
 ```
+ ![背景图片](./linear-gradient1.png)
+
+
 ## 径向渐变
 radial-gradient([[<shape>||<size>][at <position>]?,|at <position>]?<color-stop>[<color-stop>]+)
 1. 从一个点向多方向颜色渐变
