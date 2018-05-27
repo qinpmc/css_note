@@ -115,3 +115,40 @@ transition-timing-function 运动类型
 
  ![背景图片](./transform2.png)
 
+# animation
+animation: name duration timing-function delay iteration-count direction;
+1. animation-name	规定需要绑定到选择器的 keyframe 名称。。
+2. animation-duration	规定完成动画所花费的时间，以秒或毫秒计。
+3. animation-timing-function	规定动画的速度曲线。
+   - inear	动画从头到尾的速度是相同的。
+   - ease	默认。动画以低速开始，然后加快，在结束前变慢
+   - ease-in	动画以低速开始
+   - ease-out	动画以低速结束
+   - ease-in-out	动画以低速开始和结束
+   - cubic-bezier(n,n,n,n)
+4. animation-delay	规定在动画开始之前的延迟。
+5. animation-iteration-count	规定动画应该播放的次数。
+   - n	定义动画播放次数的数值
+   -  infinite
+6. animation-direction	规定是否应该轮流反向播放动画。
+   - normal	默认值。动画应该正常播放。
+   - alternate
+   - reverse
+   - alternate-reverse
+7. animation-play-state 动画状态
+   - running|paused
+8. animation-fill-mode 动画结束后的状态
+   - none、forwards、backwards、both
+      forwards：动画结束停留在最后一帧
+      backwards：动画立即从第一帧开始
+
+关键帧 - @keyframes
+ - 时间单位
+  数字：0%、25%、100%
+  字符：from（0%）、to(100%)
+格式
+  @keyframes 动画名称
+   {
+        动画状态
+   }
+
