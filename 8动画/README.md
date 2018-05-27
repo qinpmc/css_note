@@ -10,6 +10,33 @@ transition-timing-function 运动类型
   - ease-in-out：先加速后减速
   - cubic-bezier：贝塞尔曲线
 
+```
+<style>
+      div:nth-child(1){
+          width: 100px;
+          height: 100px;
+          background: red;
+         /* transition:width 500ms 1s ease-in-out;*/ /*鼠标划入、划出均执行该动画*/
+      }
+      div:nth-child(1):hover{
+          width: 200px;
+/*        transition-property:width;
+          transition-duration: 500ms;
+          transition-delay: 1s;
+          transition-timing-function:ease-in-out;*/
+          transition:width 500ms 1s ease-in-out; /*等价上面属性*/
+      }
+  </style>
+</head>
+<body>
+  <div></div>
+  <div></div>
+</body>
+```
+
+
+
+
 # box-shadow
 
 1. h-shadow	必需。水平阴影偏移的位置。允许负值。
@@ -18,3 +45,44 @@ transition-timing-function 运动类型
 4. spread	可选。阴影的尺寸。
 5. color	可选。阴影的颜色。
 6. inset	可选。将外部阴影 (outset) 改为内部阴影。
+
+```
+<style>
+    body{
+        background: #2192bc;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #2c9dc4 url(./画笔.png);
+        margin: 0 auto;
+        box-shadow: 0 0 10px 10px transparent;
+        transition: box-shadow 0.5s 0s ease-in-out ;
+    }
+    .box:hover{
+        box-shadow: 0 0 10px 10px rgba(255,255,255,0.4) ;
+    }
+</style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+```
+# transform
+1. rotate
+  - deg
+  - Transform-origin 旋转基点
+2. skew 倾斜函数
+   - skewX
+   - skewY
+3. scale 缩放函数
+  - scaleX
+  - scaleY
+
+4. translate 位移函数
+   - translateX
+   - translateY
+
+
+
