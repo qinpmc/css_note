@@ -35,8 +35,6 @@ transition-timing-function 运动类型
 ```
 
 
-
-
 # box-shadow
 
 1. h-shadow	必需。水平阴影偏移的位置。允许负值。
@@ -84,5 +82,36 @@ transition-timing-function 运动类型
    - translateX
    - translateY
 
+```
+        div{
+            float: left;
+            border: solid 5px deepskyblue;
+            height: 100px;
+            width: 100px;
+            margin: 30px;
+            background: blueviolet;
+        }
 
+        div:nth-child(2){
+            transform: rotate(45deg);
+        }
+        div:nth-child(3){
+            transform:skew(15deg,0deg);
+        }
+        div:nth-child(4){
+            transform:skew(0deg,15deg);
+        }
+        div:nth-child(5){
+            transform:skew(15deg,15deg);
+        }
+        div:nth-child(6){
+            transform:scale(0.75,0.5);
+        }
+        div:nth-child(7){
+            transform:translate(0,50px);
+        }
+
+```
+
+ ![背景图片](./transform2.png)
 
