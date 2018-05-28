@@ -24,17 +24,27 @@
       <file leaf-file-name="5animation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8动画/5animation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.4705882">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6animation.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8动画/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6089386">
+              <caret line="169" column="12" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6animation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8动画/6animation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4390244">
+            <state vertical-scroll-proportion="23.941177">
               <caret line="41" column="29" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="29" />
               <folding />
             </state>
@@ -105,9 +115,9 @@
         <option value="$PROJECT_DIR$/8动画/2transition.html" />
         <option value="$PROJECT_DIR$/8动画/3transform.html" />
         <option value="$PROJECT_DIR$/8动画/4transform.html" />
-        <option value="$PROJECT_DIR$/8动画/README.md" />
         <option value="$PROJECT_DIR$/8动画/5animation.html" />
         <option value="$PROJECT_DIR$/8动画/6animation.html" />
+        <option value="$PROJECT_DIR$/8动画/README.md" />
       </list>
     </option>
   </component>
@@ -191,6 +201,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="9其他" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css_note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css_note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8动画" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9其他/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5027933">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8动画/1transition.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.970589">
@@ -605,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8动画/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8动画/画笔.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -632,14 +642,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8动画/5animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8动画/img1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -647,8 +649,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8动画/6animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4390244">
+        <state vertical-scroll-proportion="23.941177">
           <caret line="41" column="29" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9其他/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53072625">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8动画/5animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4705882">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8动画/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6089386">
+          <caret line="169" column="12" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
           <folding />
         </state>
       </provider>

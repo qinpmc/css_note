@@ -151,4 +151,33 @@ animation: name duration timing-function delay iteration-count direction;
    {
         动画状态
    }
+```
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: radial-gradient(circle,orange,green);
+        animation: move 1s 2 alternate forwards;/*1s:执行时间1s 2：执行2次 alternate:轮流反向播放动画*/
+    }
+    div:hover{
+        animation-play-state: paused; /*鼠标滑动到div上暂停动画*/
+    }
+    @keyframes move{
+        0%{
+            transform: translate(0px,200px);
+        }
+        50%{
+            transform: translate(200px,200px);
+        }
+        100%{
+            transform: translate(200px,0px);
+        }
+    }
 
+</style>
+</head>
+<body>
+<div></div>
+</body>
+```
