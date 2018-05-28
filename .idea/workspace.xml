@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8动画/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8动画/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8动画/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8动画/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8动画/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8动画/6animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8动画/5animation.html" afterPath="$PROJECT_DIR$/8动画/5animation.html" />
-    </list>
+    <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="" />
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +24,7 @@
       <file leaf-file-name="5animation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8动画/5animation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.852942">
+            <state vertical-scroll-proportion="0.0">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
@@ -43,8 +34,8 @@
       <file leaf-file-name="6animation.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8动画/6animation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7592191">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state vertical-scroll-proportion="-1.4390244">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -126,10 +117,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-374" />
-    <option name="y" value="206" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="656" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -156,7 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,23 +194,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css_note" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css_note" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8动画" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +282,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-374" y="206" width="1936" height="656" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -632,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8动画/5animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.852942">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
@@ -671,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8动画/6animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7592191">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state vertical-scroll-proportion="-1.4390244">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="29" />
           <folding />
         </state>
       </provider>
