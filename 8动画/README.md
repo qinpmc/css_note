@@ -181,3 +181,19 @@ animation: name duration timing-function delay iteration-count direction;
 <div></div>
 </body>
 ```
+# 3D变换
+
+1. transform-style: flat（子元素在2D平面呈现）、preserve-3d（子元素在3D空间中呈现）;
+   - flat	子元素将不保留其 3D 位置。
+   - preserve-3d	子元素将保留其 3D 位置。
+2. perspective 透视效果
+   -number	元素距离视图的距离，以像素计。
+    none	默认值。与 0 相同。不设置透视。
+
+    舞台整个作为透视元素，看到的每个子元素的形体都是不一样的（加在父元素）；
+    每个元素都有一个自己的视点，因此每个元素看上去的效果也就一模一样（加在每个子元素）
+
+3. transform
+    - translate3d(x,y,z)
+    - scale3d(x,y,z)
+    - rotate3d(x,y,z,angle)

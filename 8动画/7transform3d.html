@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .wrap{
+            width: 200px;
+            height: 200px;
+            border:1px solid red;
+            margin:20px auto;
+            transform-style: preserve-3d;
+            perspective: 2000px; /*加在父元素上*/
+        }
+        .item{
+
+            width: 100%;
+            height: 100%;
+            background: red;
+            transition: transform 1s;  /*transition: transform 1s;*/
+        }
+        .item:hover{
+            transform: rotateY(45deg);
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="item"></div>
+</div>
+</body>
+</html>
