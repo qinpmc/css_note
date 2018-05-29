@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9鍏朵粬/4绠ご鍒朵綔.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/9鍏朵粬/5鐪佺暐鍙�.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6瀹氫綅/README.md" afterPath="$PROJECT_DIR$/6瀹氫綅/README.md" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +34,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4箭头制作.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4箭头制作.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9其他/4箭头制作.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5644599">
+            <state vertical-scroll-proportion="-20.911764">
               <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5省略号.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9其他/5省略号.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26132405">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9其他/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -71,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4背景/2背景图片.html" />
         <option value="$PROJECT_DIR$/4背景/3背景位置.html" />
         <option value="$PROJECT_DIR$/4背景/4bg_size.html" />
         <option value="$PROJECT_DIR$/5浮动/1浮动.html" />
@@ -122,6 +140,7 @@
         <option value="$PROJECT_DIR$/8动画/README.md" />
         <option value="$PROJECT_DIR$/6定位/README.md" />
         <option value="$PROJECT_DIR$/9其他/4箭头制作.html" />
+        <option value="$PROJECT_DIR$/9其他/5省略号.html" />
       </list>
     </option>
   </component>
@@ -131,8 +150,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="630" />
-    <option name="y" value="31" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -218,20 +237,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="9其他" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css_note" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css_note" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8动画" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,7 +343,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="630" y="31" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -378,13 +383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10实战1/手把手教你实现电商网站开发/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -643,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9其他/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3盒模型/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -717,8 +707,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9其他/4箭头制作.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5644599">
+        <state vertical-scroll-proportion="-20.911764">
           <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9其他/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9其他/5省略号.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26132405">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
