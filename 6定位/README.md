@@ -147,7 +147,7 @@
 
 
 
-## 相对定位 position:fixed
+## 固定定位 position:fixed
 * 会脱离文档流
 * 如果同时设置top和bottom，只有top起作用；如果同时设置left和right，只有left起作用
 * 参照物：整个浏览器窗口
