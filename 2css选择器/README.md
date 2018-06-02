@@ -2,62 +2,84 @@
 
 ## css基本选择器
 
-* 标签选择器，如：div{ color:red; }
+* 元素选择器，如：div{ color:red; }
 * 类选择器 ,如：.class1{color:yellow;}
 * Id选择器，如 #id1{ color:blue;}
 * 通配符选择器 *
 * 属性选择器，如[href]{ border:thin solid black}
 
+
+## 元素选择器
+* 元素选择器可以分组 如:
+ h2,p{ color:grey;}
+
+
+## 类选择器
+* 类选择器与元素结合
+  h2.warning{color:red;}
+
+* 多类选择器 (类名的顺序不限)
+
+```
+  .warning.urgent{background:silver}
+  可匹配:
+   <p class="urgent warning">this is paragraph</p>
+  可匹配：
+  <p class="urgent warning help">this is paragraph</p>
+```
+## ID 选择器
+* 与类选择器类似，但文档中ID是惟一的
+* ID属性不允许有以空格分隔的词列表
+
+
 ## 属性选择器
 
 * ![属性选择器](./attrselector.png)
 
-E[attr|=val] :只能等于val，或以val-开头
-E[attr*=val] :包含val字符串
-E[attr~=val] :属性值多个，有一个是val；或仅有val
-E[attr^=val] :以val开头
-E[attr$=val] :以val结尾
+> 简单属性选择器
+> 具体属性值选择器
+> E[attr|=val] :只能等于val，或以val-开头
+> E[attr*=val] :包含val字符串
+> E[attr~=val] :属性值多个，有一个是val；或仅有val
+> E[attr^=val] :以val开头
+> E[attr$=val] :以val结尾
 
-
-
-
-### 示例
 ```
-<!DOCTYPE html>
-<html >
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        *{
+1、 简单属性选择器 a[href] {font-weight：bold}
 
-        }
-        [class~="class2"] {
-            border: thin red solid;
-            padding: 4px;
-        }
-        [lang|="en"] {
-            border: thick blue dashed;
-            padding: 4px;
-        }
-    </style>
-</head>
-<body>
-    <a id="apressanchor" class="class1 class2" href="http://apress.com">
-        Visit the Apress website
-    </a>
-    <p>I like <span class="class2">apples</span> and oranges.</p>
-    <hr>
-    <a lang="en-us"   href="http://apress.com">
-        Visit the Bpress website
-    </a>
-    <p>I like <span lang="en-gb"  >apples</span> and oranges.</p>
-    <a lang="en"  href="http://w3c.org">Visit the W3C website</a>
-</body>
-</html>
+2、具体属性值选择器 a[title="W3C Home"]
+ 要求属性值完全匹配，顺序要一致
+
+3、E[attr|=val]
+
+ h1[lang|="en"]{color:red;}
+匹配：<h1 lang="en">H1</h1>
+     <h1 lang="en-us">H1</h1>
+不匹配：<h1 lang="enaus">H1</h1>
+
+4、E[attr*=val]
+span[class*="cloud"]{color:silver;}
+匹配： <span class="cloudy barren">Venus</span>
+       <span class="life-bearing cloudy">Earth</span>
+
+5、E[attr^=val]
+span[class^="bar"]{color:silver;}
+匹配： <span class="barren rocky">Venus</span>
+不匹配： <span class="cloudy barren">Venus</span>
+
+6、E[attr$=val]
+span[class$="y"]{color:silver;}
+匹配： <span class="barren rocky">Venus</span>
+       <span class="life-bearing cloudy">Earth</span>
+不匹配： <span class="cloudy barren">Venus</span
+
+7、E[attr~=val]
+span[class~="barren"]{color:silver;}
+匹配： <span class="barren rocky">Venus</span>
+       <span class="barren">Venus</span
+不匹配： <span class="cloudy barrens">Venus</span
 ```
-### 效果
-* ![属性选择器效果](./res1.png)
+
 
 
 ## 复合选择器
@@ -77,11 +99,6 @@ E[attr$=val] :以val结尾
 
 ### 否定选择器
 * :not，css3
-
-### 伪元素选择器
-* ::first-line
-* ::first-letter
-* :before :after ,会生成内容，如 a:before{content:"click here" }
 
 ### 结构性伪类选择器
 * :first-child
@@ -106,7 +123,12 @@ E[attr$=val] :以val结尾
 * :out-of-range
 * :optional
 
-
+## 伪元素选择器
+* ::first-line
+* ::first-letter
+* :before :after ,会生成内容，如 a:before{content:"click here" }
+ - 伪元素必须放在该伪元素但选择器但最后面
+  p:first-line em 非法
 
 ### 示例
 ```
@@ -201,7 +223,7 @@ E[attr$=val] :以val结尾
 ### 效果
  ![伪类选择器效果](./res3.png)
 
-### 选择器权重
+## 选择器权重
 * !import 重要声明，权重最重，如 h1{ color:gray !import; background:red !import;}
 * 行内样式，权重为1000
 * id 选择器 ，权重为100
@@ -210,9 +232,9 @@ E[attr$=val] :以val结尾
 * 通配符选择器 ，权重0
 * 继承的样式权重，没有特殊性，甚至连0都没有
 
-### 继承
+## 继承
 
-#### 不可继承的css属性
+### 不可继承的css属性
 1. display
 2. 文本属性（vertical-align,text-decoration,text-shadow,white-space等）
 3. 盒模型属性（border、margin、padding、width、height）
@@ -221,7 +243,7 @@ E[attr$=val] :以val结尾
 6. 生成内容属性，如content、counter-reset、counter-increment
 7. 轮廓样式属性，outline
 
-#### 可继承的css属性
+### 可继承的css属性
 1. font
 2. 文本系列属性，如text-indent、text-align、line-hight、direction、color等
 

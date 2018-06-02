@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2css选择器/res1.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1css基本概念/README.md" afterPath="$PROJECT_DIR$/1css基本概念/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2css选择器/README.md" afterPath="$PROJECT_DIR$/2css选择器/README.md" />
     </list>
     <ignored path="css_note.iws" />
@@ -35,21 +35,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2css选择器/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.5625">
+              <caret line="245" column="3" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1选择器.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2css选择器/1选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.71875">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61383927">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -120,8 +130,8 @@
         <option value="$PROJECT_DIR$/9其他/4箭头制作.html" />
         <option value="$PROJECT_DIR$/9其他/5省略号.html" />
         <option value="$PROJECT_DIR$/9其他/6多行省略号.html" />
-        <option value="$PROJECT_DIR$/2css选择器/README.md" />
         <option value="$PROJECT_DIR$/1css基本概念/README.md" />
+        <option value="$PROJECT_DIR$/2css选择器/README.md" />
       </list>
     </option>
   </component>
@@ -412,13 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2css选择器/1选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.941176">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2css选择器/4选择器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.4117646">
@@ -678,18 +681,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2css选择器/README.md">
+    <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
+    <entry file="file://$PROJECT_DIR$/2css选择器/1选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61383927">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state vertical-scroll-proportion="-13.71875">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2css选择器/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5625">
+          <caret line="245" column="3" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
           <folding />
         </state>
       </provider>
