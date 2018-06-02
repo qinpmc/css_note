@@ -15,3 +15,9 @@
 * 加载顺序不同，当一个页面被加载时，link引用的css文件被同时加载，而@import引入的css文件会等页面全部下载完后再加载
 * 使用js控制DOM去改变css样式时，只能用link标签，因为import不能被DOM控制
 
+## import
+* @import要写在css文件或style标签中，
+ - 在style中：@import url(sheet2.css);
+ - 在外部样式表中，@import url(sheet2.css);
+
+* @import要写在其它css样式之前，如果在样式后面，会被忽略
