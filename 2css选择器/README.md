@@ -146,7 +146,7 @@ span[class~="barren"]{color:silver;}
 * ::first-line
 * ::first-letter
 * :before :after ,会生成内容，如 a:before{content:"click here" }
- - 伪元素必须放在该伪元素但选择器但最后面
+ - 伪元素必须放在该伪元素选择器的最后面
   p:first-line em 非法
 
 ### 示例
@@ -267,5 +267,9 @@ span[class~="barren"]{color:silver;}
 2. 文本系列属性，如text-indent、text-align、line-hight、direction、color等
 
 
+### 选择器使用
+遵守css书写规范   
+使用合适的命名空间   
+合理的复用class  
 
 

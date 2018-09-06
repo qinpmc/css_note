@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1css基本概念/2css引入.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2css选择器/7nth-of-type.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1css基本概念/README.md" afterPath="$PROJECT_DIR$/1css基本概念/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2css选择器/README.md" afterPath="$PROJECT_DIR$/2css选择器/README.md" />
     </list>
     <ignored path="css_note.iws" />
@@ -33,11 +32,21 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.63211125">
-                <caret line="248" column="2" selection-start-line="248" selection-start-column="2" selection-end-line="248" selection-end-column="21" />
+              <first_editor vertical-scroll-proportion="0.3846154">
+                <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="251" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5html.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2css选择器/5html.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +74,7 @@
       <file leaf-file-name="3选择器.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2css选择器/3选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.53125">
+            <state vertical-scroll-proportion="-6.0">
               <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
@@ -85,7 +94,7 @@
       <file leaf-file-name="4选择器.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2css选择器/4选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6875">
+            <state vertical-scroll-proportion="0.25">
               <caret line="6" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
@@ -99,8 +108,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="1.30854">
-                <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+              <first_editor vertical-scroll-proportion="0.8078995">
+                <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -113,16 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.46875">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imp.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1css基本概念/imp.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -181,7 +180,6 @@
         <option value="$PROJECT_DIR$/2css选择器/2选择器.html" />
         <option value="$PROJECT_DIR$/2css选择器/3选择器.html" />
         <option value="$PROJECT_DIR$/2css选择器/4选择器.html" />
-        <option value="$PROJECT_DIR$/2css选择器/5html.html" />
         <option value="$PROJECT_DIR$/2css选择器/6html.html" />
         <option value="$PROJECT_DIR$/7其他/3border-radius.html" />
         <option value="$PROJECT_DIR$/7渐变/1渐变.html" />
@@ -200,11 +198,12 @@
         <option value="$PROJECT_DIR$/9其他/4箭头制作.html" />
         <option value="$PROJECT_DIR$/9其他/5省略号.html" />
         <option value="$PROJECT_DIR$/9其他/6多行省略号.html" />
-        <option value="$PROJECT_DIR$/1css基本概念/README.md" />
         <option value="$PROJECT_DIR$/1css基本概念/1css引入.html" />
         <option value="$PROJECT_DIR$/1css基本概念/2css引入.html" />
         <option value="$PROJECT_DIR$/2css选择器/7nth-of-type.html" />
+        <option value="$PROJECT_DIR$/1css基本概念/README.md" />
         <option value="$PROJECT_DIR$/2css选择器/README.md" />
+        <option value="$PROJECT_DIR$/2css选择器/5html.html" />
       </list>
     </option>
   </component>
@@ -214,10 +213,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-109" />
+    <option name="y" value="135" />
+    <option name="width" value="1565" />
+    <option name="height" value="785" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -393,10 +392,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-109" y="135" width="1565" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26016784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -465,13 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2css选择器/5html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.352942">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -722,6 +714,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1css基本概念/2css引入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.46875">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2css选择器/7nth-of-type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.90625">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -733,25 +741,25 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="1.30854">
-            <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <first_editor vertical-scroll-proportion="0.8078995">
+            <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1css基本概念/2css引入.html">
+    <entry file="file://$PROJECT_DIR$/2css选择器/3选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.46875">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="61" />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2css选择器/4选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6875">
+        <state vertical-scroll-proportion="0.25">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
@@ -773,18 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2css选择器/3选择器.html">
+    <entry file="file://$PROJECT_DIR$/2css选择器/5html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.53125">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2css选择器/7nth-of-type.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.90625">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -801,8 +801,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.63211125">
-            <caret line="248" column="2" selection-start-line="248" selection-start-column="2" selection-end-line="248" selection-end-column="21" />
+          <first_editor vertical-scroll-proportion="0.3846154">
+            <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="251" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />
