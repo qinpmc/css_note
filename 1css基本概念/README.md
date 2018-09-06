@@ -17,7 +17,7 @@
 
 ## import
 * @import要写在css文件或style标签中，
- - 在style中：@import url(sheet2.css);
+ - 在style中：@import url(sheet2.css);或者@import url("sheet2.css");或者 @import "imp.css";
  - 在外部样式表中，@import url(sheet2.css);
 
 * @import要写在其它css样式之前，如果在样式后面，会被忽略
