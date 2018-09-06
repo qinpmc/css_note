@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" >
+        .child:first-of-type{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="child">h1</h1>   选中，其父元素下第一个h1
+        <h2 class="child">h2</h2>   选中，其父元素下第一个h2
+        <div class="ct">
+            <h1 class="child">ct-h1</h1>  选中，其父元素下第一个h1
+        </div>
+        <h2 class="child">h22</h2>  不被选中，其父元素下第二个h2
+    </div>
+</body>
+</html>

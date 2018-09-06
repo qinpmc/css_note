@@ -17,7 +17,7 @@
 ## 类选择器
 * 类选择器与元素结合
   h2.warning{color:red;}
-
+warning1.warning2{color:red;} //拥有类为 class = "warning1 warning2"
 * 多类选择器 (类名的顺序不限)
 
 ```
@@ -110,6 +110,25 @@ span[class~="barren"]{color:silver;}
 * :nth-child(2n+1),父元素的奇数元素（从1开始），css3
 * :nth-last-child(n),父元素的倒数第n个子元素，css3
 * :nth-of-type ：同上nth-child，区别是区分类型（先对父元素下子元素分类，然后取不同子元素的对应的序号）
+
+```
+    <style type="text/css" >
+        .child:first-of-type{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="child">h1</h1>   选中，其父元素下第一个h1
+        <h2 class="child">h2</h2>   选中，其父元素下第一个h2
+        <div class="ct">
+            <h1 class="child">ct-h1</h1>  选中，其父元素下第一个h1
+        </div>
+        <h2 class="child">h22</h2>  不被选中，其父元素下第二个h2
+    </div>
+```
+
 
 ### UI伪类选择器
 * :enabled
