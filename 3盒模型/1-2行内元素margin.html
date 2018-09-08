@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行内元素左右margin生效</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding:0;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 20px;
+        }
+        #div1{
+            background: red;
+        }
+        #div2{
+            background: blue;
+        }
+        #span1{
+            border: 1px solid darkblue;
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            margin: 20px;
+            background: yellow;
+        }
+        #p1{
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+     <p id="p1">this is paragraph</p>
+    <!--    行内元素的上下paddding/margin 不起作用，左右paddding/margin起作用，但是，
+    如果添加了边框、背景能看到被padding撑开，但实际的行内元素的高度未变化；
+    块元素的上下左右paddding均起作用-->
+    <span id="span1">span1</span> <span id="span2">span2</span>
+    <br>
+
+</body>
+</html>
