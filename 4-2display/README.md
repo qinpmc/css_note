@@ -29,4 +29,16 @@
  
  ```
  
+ ### font
+ font-size / font-family / font-weight 文字粗度（normal，bold,bolder,lighter），可继承
+ line-height: 行高，可继承
+ - 采用复合写法时，font-size 和font-family在最后2个，且必须有这2个
  
+ 
+```
+ p{
+     /*font:italic 16px/20px arial,sans-serif ;*/ /*字体最后，16px --字体大小 ，20px --line-height*/
+     font:italic 16px arial,sans-serif ;
+     /*line-height: 200%; */   /* line-height= 32px,百分比相对于字体大小 */
+     line-height: 1.5em;  /* line-height= 24px,百分比相对于字体大小 */
+```
