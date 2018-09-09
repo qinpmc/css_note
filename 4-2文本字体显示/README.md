@@ -33,6 +33,15 @@
  font-size / font-family / font-weight 文字粗度（normal，bold,bolder,lighter），可继承
  line-height: 行高，可继承
  - 采用复合写法时，font-size 和font-family在最后2个，且必须有这2个
+ - css设置字体时，直接写成中文或英文名称浏览器能够识别，如 微软雅黑；但直接写中文的情况下编码不匹配时会产生乱码，保险  
+ 的方式是将字体名称用Unicode来表示。 
+ 
+ 
+ 中文名称  英文名称      Unicode   
+ 宋体      Simsun       \5B8B\4F53   
+ 
+ 获取Unicode码：控制台 escape("微软雅黑")， 将 %u 替换为 \ 
+ 
  
  
 ```
