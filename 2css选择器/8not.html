@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" >
+		:root{color:black;}
+		:not(div){background-color:lightgrey;}
+		p:not(:first-child):not(:last-child){ /* 不是第一个child和最后一个child的p元素*/
+			border:2px solid red;
+		}
+		p:empty{height:30px;width:30px;background:pink;}
+		:target{color:blue;}
+		div::selection{color: red;font-size:30px}  /*font-size 选中无效果*/
+    </style>
+</head>
+<body>
+    <a href="#test">测试</a>
+    <div>第一个div</div>
+    <p>第一个p</p>
+    <div id="test">第二个div</div>
+    <p>第二个p</p>
+    <p></p> 
+</body>
+</html>
