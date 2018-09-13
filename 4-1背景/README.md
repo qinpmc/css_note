@@ -108,7 +108,7 @@
 * inherit：继承
 
 ## background-size
-* 指定对象的背景图片的大小
+* 指定对象的 __背景图片__的大小
 * 可取的值：长度（如 100px 200px,指背景图片实际的大小) ,百分比（指容器的宽高百分比）、auto（背景图片原尺寸）
    cover（等比拉伸或压缩图片，使得图片完全覆盖容器，可能超出容器）、
    contain（等比拉伸或压缩图片，使得图片某一条边达到容器的边，背景图片始终被包含在容器中）
@@ -117,11 +117,13 @@
 * css3新增（不能放入background复合属性）
 
 ## background-clip
+* 设置元素的背景（__背景图片或颜色__）是否延伸到边框下面
 * 取值，padding-box（裁剪掉border部分），++（裁剪掉border外部分，实际全保留）
-  content-box（裁减掉border、padding覆盖的部分）、text
+  content-box（裁减掉border、padding覆盖的部分）、text（背景被裁剪为文字的前景色(只有chrome支持))
 * css3新增（不能放入background复合属性）
 
 ## background-origin
-* 取值，取值，padding-box（从padding区域开始显示背景图片，含padding,默认值），border-box（从border区域开始显示背景图片，含border）
-       content-box（从content区域开始显示背景图片，含content）
+* 指定 __背景图片__ background-image 属性的原点位置的背景相对区域.
+* 取值: padding-box（从padding区域开始显示背景图片，含padding,默认值），border-box（从border区域开始显示背景图片，含border）
+       content-box（从content区域开始显示背景图片，含content）  
 * css3新增（不能放入background复合属性）

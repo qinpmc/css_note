@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4-2文本字体显示/3line-height-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4-1背景/README.md" afterPath="$PROJECT_DIR$/4-1背景/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4-2文本字体显示/README.md" afterPath="$PROJECT_DIR$/4-2文本字体显示/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/4-2文本字体显示/2行高.html" afterPath="$PROJECT_DIR$/4-2文本字体显示/2line-height.html" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-2文本字体显示/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4-1背景/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.53304595">
-                <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.74856323">
+                <caret line="127" column="49" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -39,26 +37,6 @@
           </provider>
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2line-height.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-2文本字体显示/2line-height.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.8125">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3line-height-2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4-2文本字体显示/3line-height-2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31600547">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -121,14 +99,14 @@
         <option value="$PROJECT_DIR$/10实战1/111/test5.html" />
         <option value="$PROJECT_DIR$/10实战1/111/test1.html" />
         <option value="$PROJECT_DIR$/4-1背景/3背景位置.html" />
-        <option value="$PROJECT_DIR$/4-1背景/README.md" />
         <option value="$PROJECT_DIR$/4-2文本字体显示/text-align.html" />
         <option value="$PROJECT_DIR$/4-2文本字体显示/text-indent-em单位.html" />
         <option value="$PROJECT_DIR$/4-2文本字体显示/text-indent-em百分比.html" />
         <option value="$PROJECT_DIR$/10实战1/111/test-lineHeight.html" />
         <option value="$PROJECT_DIR$/4-2文本字体显示/2行高.html" />
-        <option value="$PROJECT_DIR$/4-2文本字体显示/README.md" />
         <option value="$PROJECT_DIR$/4-2文本字体显示/3line-height-2.html" />
+        <option value="$PROJECT_DIR$/4-2文本字体显示/README.md" />
+        <option value="$PROJECT_DIR$/4-1背景/README.md" />
       </list>
     </option>
   </component>
@@ -138,8 +116,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-63" />
-    <option name="y" value="73" />
+    <option name="x" value="106" />
+    <option name="y" value="70" />
     <option name="width" value="1936" />
     <option name="height" value="924" />
   </component>
@@ -433,7 +411,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-63" y="73" width="1936" height="924" extended-state="0" />
+    <frame x="106" y="70" width="1936" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -473,13 +451,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/8动画/7transform3d.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6定位/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -834,20 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-1背景/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.53304595">
-            <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-1背景/3背景位置.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.46875">
@@ -888,20 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-2文本字体显示/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.53304595">
-            <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-2文本字体显示/2line-height.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.8125">
@@ -912,10 +855,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4-2文本字体显示/3line-height-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31600547">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state vertical-scroll-proportion="-15.8125">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="100" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2文本字体显示/内联元素行高.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2文本字体显示/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.38936782">
+            <caret line="116" column="7" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-1背景/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.74856323">
+            <caret line="127" column="49" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
