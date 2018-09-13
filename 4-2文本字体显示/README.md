@@ -32,7 +32,7 @@
  ## font
  font-size / font-family / font-weight 文字粗度（normal，bold,bolder,lighter），可继承
  font-style 字体风格(italic/oblique/normal/inherit)
- line-height: 行高，可继承
+
  - 采用复合写法时，font-size 和font-family在最后2个，且必须有这2个
  - css设置字体时，直接写成中文或英文名称浏览器能够识别，如 微软雅黑；但直接写中文的情况下编码不匹配时会产生乱码，保险  
  的方式是将字体名称用Unicode来表示。 
@@ -104,7 +104,19 @@ text-indent ：只应用于 __块级元素__
 
 ```   
 
-### 居中  
-> 块级元素水平居中 ：margin:0 auto；
-> 行内元素水平居中 ：text-align:center ，一般加在其块级父元素上；
-> inline-block 元素水平居中: 给该元素包裹一个div父元素，设置该div  样式： text-align: center;
+### 居中    
+> 块级元素水平居中 ：margin:0 auto；    
+> 行内元素水平居中 ：text-align:center ，一般加在其块级父元素上；    
+> inline-block 元素水平居中: 给该元素包裹一个div父元素，设置该div  样式： text-align: center;   
+
+### line-height
+行高，可继承   
+
+行内元素设置line-height,有效果（产生间隔），但是盒子尺寸不变（即内容区大小不变）
+![](./内联元素行高.png)  
+
+
+
+
+
+

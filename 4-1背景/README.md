@@ -117,7 +117,7 @@
 * css3新增（不能放入background复合属性）
 
 ## background-clip
-* 取值，padding-box（裁剪掉border部分），border-box（裁剪掉border外部分，实际全保留）
+* 取值，padding-box（裁剪掉border部分），++（裁剪掉border外部分，实际全保留）
   content-box（裁减掉border、padding覆盖的部分）、text
 * css3新增（不能放入background复合属性）
 
