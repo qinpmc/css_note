@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            font-size: 20px;
+        }
+        .p1{
+            font-size: 30px;
+            line-height: 400%;  /*em ,百分比,数字 没有区别  --行高在自身上定义*/
+            border: 1px solid red;
+            background: yellow;
+        }
+        .span1{
+            font-size: 30px;
+            line-height: 4;  /*em ,百分比,数字 没有区别  --行高在自身上定义*/
+            border: 1px solid red;
+            background: yellow;
+        }
+
+        .box2{
+            font-size: 20px;
+            line-height: 400%;   /*百分比,em---以父元素字体为参照物计算行高，继承给子元素；数字则是直接将行高继承给子元素，以子元素字体大小来计算行高   */
+        }
+        .p2{
+            font-size: 30px;
+            border: 1px solid red;
+            background: yellow;
+        }
+        .span2{
+            font-size: 30px;
+            border: 1px solid red;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <p class="p1">
+        行框盒子(line boxes),每一行就是一个行框盒子,每一个行框盒子又是由一个个内联盒子组成
+    </p>
+    <span class="span1">
+        行框盒子(line boxes),每一行就是一个行框盒子,每一个行框盒子又是由一个个内联盒子组成
+    </span>
+</div>
+
+ <div class="box2">效果图：
+     <img src="./内联元素行高.png" alt="">
+ </div>
+
+
+<div class="box2">
+    <p class="p2">
+        行框盒子(line boxes),每一行就是一个行框盒子,每一个行框盒子又是由一个个内联盒子组成
+    </p>
+    <span class="span2">
+        行框盒子(line boxes),每一行就是一个行框盒子,每一个行框盒子又是由一个个内联盒子组成
+    </span>
+</div>
+
+</body>
+</html>
