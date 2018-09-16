@@ -121,7 +121,10 @@ text-indent ：只应用于 __块级元素__
 数字则是直接将行高继承给子元素，以子元素字体大小来计算行高   
 
 
-
+### 隐藏  
+opacity ：0    
+visibility :hidden  
+display:none   不占用位置  
 
 
 

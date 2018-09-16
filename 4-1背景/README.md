@@ -120,6 +120,7 @@
 * 设置元素的背景（__背景图片或颜色__）是否延伸到边框下面
 * 取值，padding-box（裁剪掉border部分），++（裁剪掉border外部分，实际全保留）
   content-box（裁减掉border、padding覆盖的部分）、text（背景被裁剪为文字的前景色(只有chrome支持))
+* 同时有背景颜色和背景图时，同时裁掉    
 * css3新增（不能放入background复合属性）
 
 ## background-origin

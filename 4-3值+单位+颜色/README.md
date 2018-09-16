@@ -16,7 +16,4 @@
 em：本元素给定字体的 font-size 值，如果元素的 font-size 为 14px ，那么 1em = 14px；如果 font-size 为 18px，那么 1em = 18px
 百分比  p{font-size:12px;line-height:130%} line-height = 15.6px
 
-## 隐藏  
-opacity ：0    
-visibility :hidden  
-display:none   不占用位置    
+  
