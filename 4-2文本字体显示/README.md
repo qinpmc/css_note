@@ -192,4 +192,8 @@ visibility :hidden
 display:none   不占用位置  
 
 
+### 字体图标   
+
+1. http://www.iconfont.cn/ 找到所需的图标，加入购物车，然后加入项目
+
 
