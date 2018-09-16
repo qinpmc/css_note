@@ -2,16 +2,24 @@
 
 ## 盒模型概念
 
- ![盒模型](./标准盒模型.png)
- ![盒模型](./ie盒模型.png)
+ ![盒模型](./标准盒模型.png)  
+ ![盒模型](./ie盒模型.png)  
 
-总元素的宽度=content宽度+左填充+右填充+左边框+右边框+左边距+右边距
-总元素的高度=content高度+顶部填充+底部填充+上边框+下边框+上边距+下边距
-W3C 标准中，padding、border 所占空间不在width、height范围内，
-IE 盒模型中width包括content、padding和border
+总元素的宽度=content宽度+左填充+右填充+左边框+右边框+左边距+右边距   
+总元素的高度=content高度+顶部填充+底部填充+上边框+下边框+上边距+下边距   
+W3C 标准中，padding、border 所占空间不在width、height范围内，  
+IE 盒模型中width包括content、padding和border   
 
 
-IE盒模型：width = content宽度+左填充+右填充+左边框+右边框
+IE盒模型：width = content宽度+左填充+右填充+左边框+右边框   
+
+
+### box-sizing
+取值：  
+content-box: w3c 标准盒模型  
+border-box: IE 盒模型  
+
+
 
 ### paddding
 padding:内边距，四个方向可以合写，也可以单独写，其值可以是px，也可以是百分比（相对于父容器）
