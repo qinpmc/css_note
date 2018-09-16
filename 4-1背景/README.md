@@ -102,7 +102,7 @@
  ![背景图片](./bgimg.png)
 
 ## background-attachment
-* 指定背景图片是否固定或随着页面的其余部分滚动
+* 指定 __背景图片__ 是否固定或随着页面的其余部分滚动
 * scroll：背景图片随页面的其余部分滚动。这是默认
 * fixed：背景图像是固定的
 * inherit：继承
@@ -128,3 +128,8 @@
 * 取值: padding-box（从padding区域开始显示背景图片，含padding,默认值），border-box（从border区域开始显示背景图片，含border）
        content-box（从content区域开始显示背景图片，含content）  
 * css3新增（不能放入background复合属性）
+
+
+## css Sprite
+将不同的图片/图标合并放在一张图上；  
+使用CSS Sprite 可以减少网络请求，提高网页加载性能 ；    

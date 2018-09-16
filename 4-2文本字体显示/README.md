@@ -29,6 +29,48 @@
  
  ```
  
+ ### inline-block
+ 既呈现inline特性（不占据一整行，宽度有内容宽度决定）
+ 又呈现block特性（可设置宽度，内外边距）
+ 缝隙问题（可包裹div，设置div font-size:0）
+ 
+ 
+```
+<style type="text/css">
+        .box{
+            font-size: 0;  /*去除 两个span间的空格*/
+        }
+        .inlineBlock{
+            font-size: 16px;
+            border: 1px solid black;
+            width: 50px;
+            display: inline-block;
+            vertical-align: bottom; // 底部对齐，否则文字的基线对齐
+        }
+        .span1{
+            padding: 20px;
+            background: red;
+        }
+        .span2{
+            padding: 40px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span class="inlineBlock span1">
+            Hello
+        </span>
+        <span class="inlineBlock span2">
+            Hello
+        </span>
+    </div>
+</body>
+```
+ 
+ 
+ 
  ## font
  font-size / font-family / font-weight 文字粗度（normal，bold,bolder,lighter），可继承
  font-style 字体风格(italic/oblique/normal/inherit)
@@ -82,6 +124,29 @@ text-indent ：只应用于 __块级元素__
 采用% 百分比，百分比取父元素的宽带（如果自身有设置字体大小，则变为以自身字体大小为参考）
 
 ```
+<style type="text/css">
+        body{
+            font-size:40px;
+        }
+        div{
+            font-size:20px;
+            text-align: center; 
+            text-indent: 20%;
+            border: 1px solid black;
+			width: 600px;
+        }
+        span{
+            text-align: center;
+            text-indent: 2em;
+            border: 1px solid black; 
+        }
+        p{
+            /*font-size:30px; */
+            text-indent: 20%;
+			width: 400px;
+
+        }
+    </style>
 <body>
 <div class="box">
     <!--text-align: center; 和 text-indent: 1em;均在p标签生效（p为块级元素）-->
@@ -117,8 +182,8 @@ text-indent ：只应用于 __块级元素__
 参见该图：  
 ![](./内联元素行高.png) 
  
-百分比,em---以父元素字体为参照物计算行高，继承给子元素；  
-数字则是直接将行高继承给子元素，以子元素字体大小来计算行高   
+__百分比,em---以父元素字体为参照物计算行高，继承给子元素__；  
+__数字则是直接将行高继承给子元素，以子元素字体大小来计算行高__    
 
 
 ### 隐藏  
