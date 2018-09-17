@@ -30,10 +30,9 @@
  ```
  
  ### inline-block
- 既呈现inline特性（不占据一整行，宽度有内容宽度决定）
- 又呈现block特性（可设置宽度，内外边距）
- 缝隙问题（可包裹div，设置div font-size:0）
- 
+- 既呈现inline特性（不占据一整行，宽度有内容宽度决定），又呈现block特性（可设置宽度，内外边距）
+- 缝隙问题（可包裹div，设置div font-size:0）
+- 高度不一样的inline-block元素  可采用 vertical-align: top;  顶端对齐
  
 ```
 <style type="text/css">
@@ -187,7 +186,7 @@ __数字则是直接将行高继承给子元素，以子元素字体大小来计
 
 
 ### 隐藏  
-opacity ：0    
+opacity:0    
 visibility :hidden  
 display:none   不占用位置  
 
