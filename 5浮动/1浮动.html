@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <title>浮动</title>
     <style>
+
         .content1{
             height:200px;
             width: 200px;
-            background: darkcyan;
+            background: grey;
             float: left;
+            opacity: 0.3;
         }
         .content2{
             height:200px;
             width: 200px;
-            background: blueviolet;
+            background: green;
             float: left;
+            opacity: 0.3;
         }
         .content3{
             height:300px;
-            width: 200px;
-            background: yellowgreen;
+            width: 300px;
+            background: yellow;
 
         }
-        .left{
+        .content2 .left{
             height:40px;
             width: 40px;
             background: darkgoldenrod;
         }
-        .right{
+        .content2 .right{
             height:40px;
             width: 40px;
             background: darkolivegreen;
@@ -44,10 +47,10 @@
     <div class="content1">盒子1</div>
     <div class="content2">
         盒子2
-        <div class="left"></div>
-        <div class="right"></div>
+        <div class="left">正常div</div>
+        <div class="right">正常div</div>
     </div>
-    <div class="content3">盒子3</div>
+    <div class="content3">正常盒子3，被浮动盒子1、2 遮挡</div>
     <span class="sp">span</span>
 </body>
 </html>
