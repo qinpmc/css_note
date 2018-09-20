@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4-2文本字体显示/2line-height(行内-块元素).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5浮动/1-3两个浮动元素外边距不合并.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5浮动/1-5浮动脱离文档流-但文字可见浮动元素.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5浮动/2-1清浮动属性.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5浮动/3-1两列布局.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/4-2文本字体显示/2line-height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5浮动/4浮动测试.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5浮动/3-2三列布局.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5浮动/3-3导航.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5浮动/README.md" afterPath="$PROJECT_DIR$/5浮动/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/4-2文本字体显示/3line-height-2.html" afterPath="$PROJECT_DIR$/4-2文本字体显示/3line-height继承.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/5浮动/3隐藏元素.html" afterPath="$PROJECT_DIR$/4-2文本字体显示/6隐藏元素.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/5浮动/5浮动测试_2.html" afterPath="$PROJECT_DIR$/5浮动/1-4浮动元素外边距不传递给父级.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5浮动/3-1两列布局.html" afterPath="$PROJECT_DIR$/5浮动/3-1两列布局.html" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +36,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-1两列布局.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3-1两列布局.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5浮动/3-1两列布局.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35353535">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="14" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3-2三列布局.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5浮动/3-2三列布局.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.78125">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3-3导航.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5浮动/3-3导航.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.9176136">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -70,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2css选择器/7nth-of-type.html" />
-        <option value="$PROJECT_DIR$/1css基本概念/README.md" />
         <option value="$PROJECT_DIR$/2css选择器/README.md" />
         <option value="$PROJECT_DIR$/2css选择器/5html.html" />
         <option value="$PROJECT_DIR$/9其他/4箭头制作.html" />
@@ -121,6 +131,8 @@
         <option value="$PROJECT_DIR$/5浮动/README.md" />
         <option value="$PROJECT_DIR$/5浮动/2-1清浮动属性.html" />
         <option value="$PROJECT_DIR$/5浮动/3-1两列布局.html" />
+        <option value="$PROJECT_DIR$/5浮动/3-2三列布局.html" />
+        <option value="$PROJECT_DIR$/5浮动/3-3导航.html" />
       </list>
     </option>
   </component>
@@ -130,10 +142,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="221" />
+    <option name="x" value="70" />
+    <option name="y" value="258" />
     <option name="width" value="1936" />
-    <option name="height" value="688" />
+    <option name="height" value="545" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -313,7 +325,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="221" width="1936" height="688" extended-state="0" />
+    <frame x="70" y="258" width="1936" height="545" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25989583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -353,20 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10实战1/111/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10实战1/111/test-lineHeight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.59375">
-          <caret line="28" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1css基本概念/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -771,8 +769,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5浮动/3-1两列布局.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35353535">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="14" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5浮动/3-2三列布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.78125">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5浮动/3-3导航.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9176136">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
