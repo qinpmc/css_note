@@ -87,8 +87,28 @@
 
 ![浮动影响](./浮动影响.png)
 
+### 对外边距影响
+- 浮动元素周围的外边距不会合并
+  （1-3两个浮动元素外边距不合并.html）
+- 子级元素浮动后，自己的margin-top不传递给父级
+   （1-4浮动元素外边距不传递给父级.html）
 
 ## 清浮动
+
+clear 清除
+
+取值: left | right | both | none（默认） | inherit
+应用于: 块级元素(块级元素指block元素，不包括inline-block元素)
+继承性: 无
+
+left:左侧不允许存在浮动元素
+right:右侧不允许存在浮动元素
+both:左右两侧不允许存在浮动元素
+none:允许左右两侧存在浮动元素
+
+ __设置clear属性的元素并不能改变浮动元素，而只能改变自身__
+
+
 1. 给浮动元素的父元素手动添加一个固定的高度；
 2. 给浮动元素的父元素设置overflow:hidden/auto ;加 overflow:visible; 不可行，加overflow:scroll;,清除了浮动，但有滚动条
 3. 浮动元素父父元素结束标签之前加一个具有块元素特点的标签（一般用div），添加clear:both 即<div style="clear:both:>

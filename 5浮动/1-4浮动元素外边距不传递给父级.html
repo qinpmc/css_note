@@ -5,12 +5,12 @@
     <title>Title</title>
     <style>
         .parent {
-           /* border:solid 2px black; *//*父级元素有边框，自己的margin-top不传递给父级*/
+            border:solid 2px black; /*父级元素有边框，子级的margin-top不传递给父级*/
             height: 400px;
             background: beige;
         }
         .inner{
-            float: left; /*子级元素浮动后，自己的margin-top不传递给父级*/
+            /*float: left; *//*子级元素浮动后，自己的margin-top不传递给父级*/
             background: red;
             height: 200px;
             width: 300px;
