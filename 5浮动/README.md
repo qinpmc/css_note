@@ -24,6 +24,70 @@
 给块级元素设浮动的时候也是同样的情况，属性更加像是inline-block；浮动后不占据整行
 
 
+```
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+        p{
+            border: 1px solid black;
+            background: yellow;
+        }
+        .box1{
+            border: 1px solid green;
+            overflow: hidden; /* 触发BFC */
+        }
+        .div1{
+            float: left;
+            background: red;
+            margin: 10px;
+            padding: 10px;
+        }
+        .span1{
+            float: left;
+            background: blue;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            padding: 20px;
+        }
+        .box2{
+            border: 1px solid red;
+        }
+        .box2 strong{
+            float: left;
+            padding: 10px;
+        }
+
+        .box3{
+            border: 1px solid blue;
+        }
+        .box3 strong{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<p>这是最前面的段落，为看出后面元素的效果而设置</p>
+    <div class="box1">
+        <div class="div1">块级div1；浮动后不占据整行;margin: 10px;padding: 10px;</div>
+        <span class="span1">行内span1；浮动后支持width/height/margin-top生效</span>
+    </div>
+<div class="box2">
+    <span class="span2">行内span2；<strong>浮动(此处行内strong标签浮动)</strong>后padding-top生效</span>
+</div>
+<div class="box3">
+    <span class="span3">行内span3；<strong>无浮动(此处行内strong标签无浮动)</strong>后padding-top不生效</span>
+</div>
+</body>
+
+```
+
+![浮动影响](./浮动影响.png)
+
+
 ## 清浮动
 1. 给浮动元素的父元素手动添加一个固定的高度；
 2. 给浮动元素的父元素设置overflow:hidden/auto ;加 overflow:visible; 不可行，加overflow:scroll;,清除了浮动，但有滚动条
