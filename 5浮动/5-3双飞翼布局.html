@@ -10,9 +10,6 @@
             clear: both;
 
         }
-        .container{
-            border: 1px solid black;
-        }
 
         .left, .main, .right {
             float: left;
@@ -20,7 +17,7 @@
             text-align: center;
         }
         .left {
-            margin-left: -100%;
+            margin-left: -100%;  /* 父级宽度的 100%*/
             background: green;
             width: 200px;
         }
@@ -33,20 +30,20 @@
         .main {
             background-color: blue;
             width: 100%;
-            margin: 0 300px 0 200px;
+
         }
         .content{
-            /*margin: 0 300px 0 200px;*/
+            margin: 0 300px 0 200px;
         }
     </style>
 </head>
 <body>
-<!--<div class="container">-->
+<div class="container">
 　　<div class="main">
-       <!-- <div class="content">main</div>-->
+        <div class="content">main</div>
     </div>
     <div class="left">left</div>
 　　<div class="right">right</div>
-<!--</div>-->
+</div>
 </body>
 </html>
