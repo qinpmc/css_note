@@ -6,6 +6,9 @@
 3. 绝对定位元素的参照物为最近的具有定位属性的父元素（定位属性包含relative，fixed,absolute;如果没有，则为html根元素）
 4. 如果同时设置top和bottom，只有top起作用；如果同时设置left和right，只有left起作用
 
+
+
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -96,6 +99,10 @@
 </html>
 ```
  ![绝对定位1](./absolute1.png)
+
+### 绝对定位对块级元素和行内元素影响
+与浮动类似，绝对定位的元素，块级元素不再独占一行，宽度由内容撑开；
+行内元素支持设置宽和高，支持上下的padding/margin
 
 ## 相对定位 position:relative
 * 不会脱离文档流，占位，后面的元素不会占据其原来的位置
