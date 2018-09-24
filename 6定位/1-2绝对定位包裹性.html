@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            background: orange;
+            padding: 20px;
+            position: absolute; /*父级元素absolute后，不再独占一行，而是有子级元素撑开*/
+        }
+        .son1{
+            background: blue;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">absolute parent
+        <div class="son1">son1son1</div>
+    </div>
+</body>
+</html>
