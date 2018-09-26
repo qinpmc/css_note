@@ -8,22 +8,23 @@
             margin-bottom: 50px;
             height:100px;
             width:100px;
-            background: yellowgreen;
+            background: yellow;
         }
         .class2{
-            margin-bottom: 20px;
+            margin-top: 20px;
             height:100px;
             width:100px;
-            background: rebeccapurple;
+            background: purple;
         }
 
         .outer{
             height:300px;
             width:300px;
             background: green;
+            /*margin-top: 50px;*/ /*子元素的外边距可传递给父元素*/
         }
         .inner{
-            margin-top: 100px;
+            margin-top: 80px;
             height:100px;
             width:100px;
             background: red;
@@ -31,10 +32,12 @@
     </style>
 </head>
 <body>
-    <p>两个div相邻时，它们之间的margin值取2者间较大的那个margin值</p>
+    <p>相邻合并-（两个div相邻时，它们之间的margin值取2者间较大的那个margin值）</p>
     <div class="class1"></div>
     <div class="class2"></div>
     <hr>
+    <p>父子合并-（两个div相邻时，它们之间的margin值取2者间较大的那个margin值|
+        子元素的外边距传递给父元素）</p>
     <div class="outer">
         <div class="inner"></div>
     </div>

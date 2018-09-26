@@ -9,16 +9,21 @@
             padding: 0;
         }
         div{
+            margin: 30px;
+        }
+        .div1{
             background: red;
-            height: 100px;
-            width:100px;
-
+        }
+        .div2{
+            background: yellow;
         }
     </style>
 </head>
 <body>
-<!--<div class="father">    <div class="son" style="margin-top:80px;"></div> </div>
-<div class="father" style="margin-top:80px;">    <div class="son"></div> </div>-->
-<div class="father" style="margin-top:60px;">    <div class="son" style="margin-top:80px;"></div> </div>
+<p>div1是空的，外边距合并</p>
+<div class="div1"></div>
+<p style="margin-left: 30px">div2非空，外边距不合并</p>
+<div class="div2">div2</div>
+<p>结束段落，为明显显示div2的上下外边距</p>
 </body>
 </html>
