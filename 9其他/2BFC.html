@@ -21,15 +21,10 @@
 </head>
 <body>
 <div class="box1">box1</div>
-<div class="box2">box2</div>
+<div class="box2">box2 触发BFC（overflow: hidden），不与浮动元素box1重叠 </div>
 
 <div class="box" style="border: 1px solid blue">
-        信息信息信息信息信息信息
-        信息信息信息信息信息信息
-        信息信息信息信息信息信息
-        信息信息信息信息信息信息
-        信息信息信息信息信息信息
-        信息信息信息信息信息信息
+        本div 并未触发BFC，与浮动元素box1 发生重叠
 </div>
 </body>
 </html>

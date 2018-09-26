@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>margin 合并问题</title>
+    <style type="text/css">
+        .outer{
+            height:300px;
+            width:300px;
+            background: green;
+           /* padding: 1px;*/   /*给父级元素加边框或padding解决*/
+            border: 1px solid black;
+        }
+        .inner{
+            margin-top: 80px;
+            height:100px;
+            width:100px;
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+<p>父子合并-（两个div相邻时，它们之间的margin值取2者间较大的那个margin值|
+    子元素的外边距传递给父元素）-----给父级元素加边框或padding解决</p>
+<div class="outer">
+    <div class="inner"></div>
+</div>
+</body>
+</html>

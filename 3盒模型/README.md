@@ -83,9 +83,9 @@ margin：外边距,四个方向可以合写，也可以单独写，其值可以�
 - 行内元素的上下margin 不起作用，左右margin起作用，块元素的上下左右margin均起作用   
 
 外边距合并场景
-- 父子合并
-- 相邻合并
-- 自己合并（自身内部无内容）
+- 父子合并 （2box-margin 合并问题.html）
+- 相邻合并（2box-margin 合并问题.html）
+- 自己合并（自身内部无内容）（3box-margin 合并问题2.html)
 
 1. 父级和第一个/最后一个子元素，它们之间的margin值取2者间较大的那个margin值
 2. 父级和第一个/最后一个子元素, 如下3 种设置是等效的
@@ -95,12 +95,12 @@ margin：外边距,四个方向可以合写，也可以单独写，其值可以�
     - 父元素设置 padding-top 值；
     - 父元素和第一个子元素之间添加内联元素进行分隔。
 
+### 外边距合并的解决
 
-```
-<div class="father">    <div class="son" style="margin-top:80px;"></div> </div>
-<div class="father" style="margin-top:80px;">    <div class="son"></div> </div>
-<div class="father" style="margin-top:80px;">    <div class="son" style="margin-top:80px;"></div> </div>
-```
+- 父子合并时，可给父元素添加 padding/border 来解决
+- 自己合并时，可给该元素添加 padding/border 来解决
+- 触发 BFC解决（BFC章节）
+
 3. margin负边距的作用
 ```
 <!DOCTYPE html>

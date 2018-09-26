@@ -8,12 +8,21 @@
 
 
 ## BFC
-Block Formatting Context，中文直译为块级格式上下文。BFC就是一种布局方式，在这种布局方式下，
-盒子们自所在的containing block顶部一个接一个垂直排列，水平方向上撑满整个宽度（除非内部盒子自己建立了新的BFC）。
-- 两个相邻的BFC之间的距离由margin决定。在同一个BFC内部，两个垂直方向相邻的块级元素的margin会发生“塌陷”。
-- 它决定了元素如何对其内容进行定位，以及与其他元素的关系和相互作用。当涉及到可视化布局的时候，Block Formatting Context提供了一个环境，
-  HTML元素在这个环境中按照一定规则进行布局。一个环境中的元素不会影响到其它环境中的布局。
-  通俗一点，可以把BFC理解为一个封闭的大箱子，箱子内部的元素无论如何翻江倒海，都不会影响到外部。
+
+1. Box: CSS布局的基本单位
+　　Box 是 CSS 布局的对象和基本单位， 直观点来说，就是一个页面是由很多个 Box 组成的。元素的类型和 display 属性，决定了这个 Box 的类型。 
+   不同类型的 Box， 会参与不同的 Formatting Context（一个决定如何渲染文档的容器），因此Box内的元素会以不同的方式渲染。让我们看看有哪些盒子：
+
+block-level box:display 属性为 block, list-item, table 的元素，会生成 block-level box。并且参与 block fomatting context；
+inline-level box:display 属性为 inline, inline-block, inline-table 的元素，会生成 inline-level box。并且参与 inline formatting context；
+run-in box: css3 中才有。
+
+2. Formatting context
+　　Formatting context 是 W3C CSS2.1 规范中的一个概念。它是页面中的一块渲染区域，并且有一套渲染规则，它决定了其子元素将如何定位，以及和其他元素的关系和相互作用。
+    最常见的 Formatting context 有 Block fomatting context (简称BFC)和 Inline formatting context (简称IFC)。
+
+
+BFC(Block formatting context)直译为"块级格式化上下文"。它是一个独立的渲染区域，只有Block-level box参与， 它规定了内部的Block-level Box如何布局，并且与这个区域外部毫不相干。
 
 ### 创建BFC：
 1. float属性不为none
@@ -22,9 +31,15 @@ Block Formatting Context，中文直译为块级格式上下文。BFC就是一�
 4. display为inline-block、table-cell、table-caption、flex、inline-flex
 5. 根元素html
 
-### BFC 特性
-- 内部的box会在垂直方向，一个接一个放着
-- box垂直方向的距离由margin决定，属于同一个BFC的两个相邻box 的margin会发生重叠；
-- BFC 的区域不会与float box重叠
-- BFC 就是页面上一个独立容器，容器里面的子元素不会影响到外面的元素，反之亦然
-- 计算BFC的高度时，浮动元素也参与其中 
+### BFC布局规则：
+- 内部的Box会在垂直方向，一个接一个地放置。
+- Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生重叠
+- 每个元素的margin box的左边， 与包含块border box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。
+- BFC的区域不会与float box重叠。
+- BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素。反之也如此。
+- 计算BFC的高度时，浮动元素也参与计算
+ 
+ 
+ ### 渐进增强和优雅降级
+ 1. 渐进增强（progressive enhancement):针对低版本浏览器进行构建页面，保证最基本的功能，然后再针对高级浏览器进行效果、交互等改进和追加功能达到更好的用户体验
+ 2. 优雅降级（graceful degradation）：一开始就构建完整的功能，然后再针对低版本浏览器进行兼容

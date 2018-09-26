@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>margin 合并问题</title>
+    <style type="text/css">
+        .outer{
+            height:300px;
+            width:300px;
+            background: green;
+            /*overflow: hidden;*/ /*触发父级BFC*/
+        }
+        .inner{
+            margin-top: 80px;
+            height:100px;
+            width:100px;
+            background: red;
+            overflow: hidden;  /*触发子级BFC ，外边距仍传递*/
+        }
+        .class1{
+            margin-right: 50px;
+            height:100px;
+            width:100px;
+            background: yellow;
+            float: left;
+        }
+        .class2{
+            margin-left: 40px;
+            height:100px;
+            width:100px;
+            background: purple;
+            float: left;
+        }
+
+        .class3{
+            margin-bottom: 50px;
+            height:100px;
+            width:100px;
+            background: yellow;
+            overflow: hidden;
+        }
+        .class4{
+            margin-top: 40px;
+            height:100px;
+            width:100px;
+            background: purple;
+            overflow: hidden;
+
+        }
+    </style>
+</head>
+<body>
+<p>父子合并-（两个div相邻时，它们之间的margin值取2者间较大的那个margin值|
+    子元素的外边距传递给父元素）-----触发<strong>父级</strong>BFC可解决</p>
+<div class="outer">
+    <div class="inner"></div>
+</div>
+<hr>
+<p>相邻合并-浮动元素间左右margin 不合并</p>
+<div class="class1">margin-right: 50px;;</div>
+<div class="class2">margin-left: 40px;</div>
+<br style="clear: both">
+<hr>
+<p>相邻合并-元素触发BFC（overflow: hidden;）间上下margin 合并</p>
+<div class="class3">margin-bottom: 50px;</div>
+<div class="class4">margin-top: 20px;</div>
+
+</body>
+</html>
