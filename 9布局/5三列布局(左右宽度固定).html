@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .content:after{
+            content:"";
+            display: block;
+            clear: both;
+        }
+        .leftAside{
+            width: 120px;
+            height: 600px;
+            background: red;
+            float: left;
+        }
+        .rightAside{
+            width: 150px;
+            height: 600px;
+            background: red;
+            float: right;
+        }
+        .main{
+            margin-left: 130px;
+            margin-right: 160px;
+            background: yellow;
+            height: 600px;
+        }
+        .footer{
+            background: blue;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="leftAside"></div>
+        <div class="rightAside"></div>
+        <div class="main"></div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>
