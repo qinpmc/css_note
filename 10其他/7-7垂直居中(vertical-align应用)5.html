@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        html,body{
+            height:100%
+        }
+        .box1:before{
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .box1,.box2{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+
+        .img1{
+            vertical-align: middle; /*相对于父元素 box1 基线居中*/
+        }
+
+        .box2{
+            display: table-cell; /*宽度会自动收缩*/
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body  >
+
+<div class="box1">
+    <img class="img1" src="./西瓜.png" alt="" >
+</div>
+<h3>box2</h3>
+<div class="box2">
+    <img class="img2" src="./西瓜.png" alt="" >
+</div>
+</body>
+</html>

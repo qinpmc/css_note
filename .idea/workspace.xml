@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10其他/西瓜.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10其他/7-2水平居中2(块级内容).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10其他/7-3垂直居中1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10其他/7-4垂直居中(弹出框)2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10其他/7-5垂直居中(弹出框未知宽高)3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10其他/7-6垂直居中(vertical-align)4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10其他/7-7垂直居中(vertical-align应用)5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10其他/7-4垂直居中(弹出框)2.html" afterPath="$PROJECT_DIR$/10其他/7-4垂直居中(弹出框)2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10其他/7-5垂直居中(弹出框未知宽高)3.html" afterPath="$PROJECT_DIR$/10其他/7-5垂直居中(弹出框未知宽高)3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10其他/README.md" afterPath="$PROJECT_DIR$/10其他/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/10其他/111.html" afterPath="$PROJECT_DIR$/10其他/7-1水平居中1.html" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/10其他/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.68619245">
-                <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.81884056">
+                <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -59,10 +57,9 @@
       <file leaf-file-name="7-4垂直居中(弹出框)2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10其他/7-4垂直居中(弹出框)2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.9375">
-              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+            <state vertical-scroll-proportion="-17.59375">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -72,24 +69,45 @@
       <file leaf-file-name="7-5垂直居中(弹出框未知宽高)3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10其他/7-5垂直居中(弹出框未知宽高)3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.75">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state vertical-scroll-proportion="-17.1875">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7-3垂直居中1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7-3垂直居中1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10其他/7-3垂直居中1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46349943">
+            <state vertical-scroll-proportion="-12.5">
               <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7-6垂直居中(vertical-align)4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10其他/7-6垂直居中(vertical-align)4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.59375">
+              <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7-7垂直居中(vertical-align应用)5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10其他/7-7垂直居中(vertical-align应用)5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47856316">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/6定位/1绝对定位.html" />
-        <option value="$PROJECT_DIR$/6定位/2绝对定位.html" />
         <option value="$PROJECT_DIR$/6定位/3relative.html" />
         <option value="$PROJECT_DIR$/6定位/test1.html" />
         <option value="$PROJECT_DIR$/6定位/1-2绝对定位对行内和块元素影响.html" />
@@ -158,9 +174,11 @@
         <option value="$PROJECT_DIR$/10其他/7-2水平居中2(块级内容).html" />
         <option value="$PROJECT_DIR$/10其他/7-3垂直居中1.html" />
         <option value="$PROJECT_DIR$/10其他/7-4垂直居中2.html" />
-        <option value="$PROJECT_DIR$/10其他/README.md" />
         <option value="$PROJECT_DIR$/10其他/7-5垂直居中(弹出框未知宽高)3.html" />
         <option value="$PROJECT_DIR$/10其他/7-4垂直居中(弹出框)2.html" />
+        <option value="$PROJECT_DIR$/10其他/README.md" />
+        <option value="$PROJECT_DIR$/10其他/7-6垂直居中(vertical-align)4.html" />
+        <option value="$PROJECT_DIR$/10其他/7-7垂直居中(vertical-align应用)5.html" />
       </list>
     </option>
   </component>
@@ -356,9 +374,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.240625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.240625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -395,20 +413,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/6定位/1绝对定位.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6定位/1-2绝对定位包裹性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6定位/1-2绝对定位对行内和块元素影响.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -773,11 +777,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/10其他/7-3垂直居中1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10其他/7-4垂直居中(弹出框)2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.59375">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10其他/7-5垂直居中(弹出框未知宽高)3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.1875">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/10其他/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.68619245">
-            <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.81884056">
+            <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -787,35 +821,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10其他/7-4垂直居中(弹出框)2.html">
+    <entry file="file://$PROJECT_DIR$/10其他/7-6垂直居中(vertical-align)4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.9375">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        <state vertical-scroll-proportion="-17.59375">
+          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10其他/7-5垂直居中(弹出框未知宽高)3.html">
+    <entry file="file://$PROJECT_DIR$/10其他/7-7垂直居中(vertical-align应用)5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10其他/7-3垂直居中1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46349943">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.47856316">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

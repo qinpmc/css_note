@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        html,body{
+            height:100%
+        }
+        .box1{
+            border: 1px solid black;
+            height: 120px;
+            width: 200px;
+        }
+        img{
+            vertical-align: middle; /*相对于父元素 box1 基线居中*/
+        }
+    </style>
+</head>
+<body  >
+vertical-align 用来指定 行内元素（inline）或表格单元格（table-cell）元素的垂直对齐方式(https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align)。
+取值 (对于行内(inline)元素):取值是相对于父元素来说的
+取值 (对于table-cell元素):与同行单元格
+<div class="box1">
+    box1中的<p > 的段落1</p>
+</div>
+<div class="box1">
+    <!-- 相对于父元素 box1 基线居中 -->
+    box1中的<span style="font-size: 24px;vertical-align: middle"> span1</span>
+</div>
+<div class="box1">
+    box1中的<img src="./西瓜.png" alt="" >
+</div>
+
+</body>
+</html>

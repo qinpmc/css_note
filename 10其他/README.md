@@ -105,3 +105,10 @@ IE将会根据if条件来判断是否如解析普通的页面内容一样解析�
 整块内容居中（如弹出框居中）
 示例： （7-4垂直居中(弹出框)2.html）
 
+#### 3.3 vertical-align实现
+
+vertical-align 用来指定 __行内元素（inline）或表格单元格（table-cell）元素__ 的垂直对齐方式(https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align)。
+取值 (对于行内(inline)元素):取值是相对于 __父元素__来说的   
+取值 (对于table-cell元素):与同行单元格   
+
+
