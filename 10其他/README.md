@@ -84,31 +84,5 @@ IE将会根据if条件来判断是否如解析普通的页面内容一样解析�
   插件基于 CSS 代码的 AST 所能进行的操作是多种多样的，比如可以支持变量和混入（mixin），增加浏览器相关的声明前缀，或是把使用将来的 CSS 规范的样式规则转译（transpile）成当前的 CSS 规范支持的格式.
 
 
-## 居中
-
-### 1 text-align  (center)
-可以用于 文字/图片水平居中    
-- 块级元素，设置text-align:center 居中
-- 行内元素，给父级块元素添加text-align:center 居中
-示例： （7-1水平居中1.html）
-
-### 2 margin (左右margin 相等)
-- 左右margin 相等  
-示例： （7-2水平居中2(块级内容).html）
-
-### 3垂直居中
-
-#### 3.1 上下padding 相等
-示例： （7-3垂直居中1.html）
-
-#### 3.2 绝对定位+ 负margin
-整块内容居中（如弹出框居中）
-示例： （7-4垂直居中(弹出框)2.html）
-
-#### 3.3 vertical-align实现
-
-vertical-align 用来指定 __行内元素（inline）或表格单元格（table-cell）元素__ 的垂直对齐方式(https://developer.mozilla.org/zh-CN/docs/Web/CSS/vertical-align)。
-取值 (对于行内(inline)元素):取值是相对于 __父元素__来说的   
-取值 (对于table-cell元素):与同行单元格   
 
 
