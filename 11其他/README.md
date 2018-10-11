@@ -85,4 +85,50 @@ IE将会根据if条件来判断是否如解析普通的页面内容一样解析�
 
 
 
+### 伪类伪元素
+CSS 伪类用于向某些选择器添加特殊的效果。 单冒号(:)用于CSS3伪类。      
+CSS 伪元素用于将特殊的效果添加到某些选择器。 双冒号(::)用于CSS3伪元素。    
+
+1. 伪元素   
+:first-letter	将特殊的样式添加到文本的首字母  
+:first-line	将特殊的样式添加到文本的首行   
+:before	在某元素之前插入某些内容   
+:after  在某元素之后插入某些内容   
+ 
+ 
+2. 伪类
+
+:active	向被激活的元素添加样式。	   
+:focus	向拥有键盘输入焦点的元素添加样式。    
+:hover	当鼠标悬浮在元素上方时，向元素添加样式。   
+:link	向未被访问的链接添加样式。   
+:visited	向已被访问的链接添加样式。    
+:first-child	向元素的第一个子元素添加样式。   
+:lang 向带有指定 lang 属性的元素添加样式。    
+
+ 
+3. css3 新增伪类  
+:first-of-type
+:last-of-type
+:only-of-type
+:only-child
+:nth-child(n)
+:nth-last-child(n)
+:nth-of-type(n)
+:nth-last-of-type(n) 
+:last-child
+:empty
+:target 
+:not(p)
+:enabled
+:disabled 
+:checked 
+ 
+4 .css3 新增伪元素  
+::selection 
+::backdrop 
+::placeholder 
+
+
+
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 20px;
+        }
+        .bubble , .bubble2{
+            position: relative;
+            padding: 10px;
+            border-radius: 3px;
+            background: #ccc;
+            display: inline-block;
+        }
+        .bubble::before{
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: -5px;
+            background: #ccc;
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="bubble">hi，你好</div>
+    <div class="bubble">hi，你好</div>
+</body>
+</html>

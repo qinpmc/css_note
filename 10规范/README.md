@@ -70,6 +70,15 @@ html5 新支持元素
 - 小数前不用前缀，如 .5s
 - 尽量缩写,如 margin ： 0 10px
 
+参考：
+1. bootstrap 编码规范：  
+https://codeguide.bootcss.com/
+
+2. Google HTML/CSS Style Guide   
+https://google.github.io/styleguide/htmlcssguide.html
+
+3. Naming CSS Stuff Is Really Hard
+https://seesparkbox.com/foundry/naming_css_stuff_is_really_hard
 
 
 
