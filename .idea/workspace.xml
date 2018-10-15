@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6bff49-3a0b-40c1-8735-f273e32e789d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/9布局/7-6垂直居中(vertical-align)4.html" afterPath="$PROJECT_DIR$/9布局/7-6垂直居中(vertical-align)4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/9布局/7-7垂直居中(vertical-align应用)5.html" afterPath="$PROJECT_DIR$/9布局/7-7垂直居中(vertical-align应用)5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11其他/遮罩.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4-2文本字体显示/字体图标/fontawsome.html" afterPath="$PROJECT_DIR$/4-2文本字体显示/字体图标/fontawsome.html" />
     </list>
     <ignored path="css_note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +32,7 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
+              <first_editor vertical-scroll-proportion="4.0515075">
                 <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
                 <folding />
               </first_editor>
@@ -40,78 +41,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4箭头制作.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11其他/4箭头制作.html">
+      <file leaf-file-name="遮罩.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11其他/遮罩.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="29" />
+            <state vertical-scroll-proportion="-10.34375">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fontawsome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4-2文本字体显示/字体图标/fontawsome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48134777">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7tooltip.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11其他/7tooltip.html">
+      <file leaf-file-name="6字体图标2-class.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4-2文本字体显示/字体图标/6字体图标2-class.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="8笑脸-伪类.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11其他/8笑脸-伪类.html">
+      <file leaf-file-name="6字体图标.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4-2文本字体显示/字体图标/6字体图标.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4375">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="26" />
+            <state vertical-scroll-proportion="4.5">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7-7垂直居中(vertical-align应用)5.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/9布局/7-7垂直居中(vertical-align应用)5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.037304454">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7-6垂直居中(vertical-align)4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9布局/7-6垂直居中(vertical-align)4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.1875">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7-5垂直居中(弹出框未知宽高)3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9布局/7-5垂直居中(弹出框未知宽高)3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.6875">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-1背景/README.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="18" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -132,10 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/6定位/7导航栏.html" />
-        <option value="$PROJECT_DIR$/9其他/解决外边距相邻外边距合并.html" />
-        <option value="$PROJECT_DIR$/9其他/2BFC.html" />
-        <option value="$PROJECT_DIR$/9其他/解决父子外边距合并.html" />
         <option value="$PROJECT_DIR$/3盒模型/3box-margin 合并问题2.html" />
         <option value="$PROJECT_DIR$/3盒模型/5解决父子外边距合并-2.html" />
         <option value="$PROJECT_DIR$/3盒模型/5解决父子外边距合并.html" />
@@ -183,6 +146,10 @@
         <option value="$PROJECT_DIR$/11其他/8笑脸-伪类.html" />
         <option value="$PROJECT_DIR$/9布局/7-6垂直居中(vertical-align)4.html" />
         <option value="$PROJECT_DIR$/9布局/7-7垂直居中(vertical-align应用)5.html" />
+        <option value="$PROJECT_DIR$/11其他/test.html" />
+        <option value="$PROJECT_DIR$/11其他/全屏遮罩.html" />
+        <option value="$PROJECT_DIR$/11其他/遮罩.html" />
+        <option value="$PROJECT_DIR$/4-2文本字体显示/字体图标/fontawsome.html" />
       </list>
     </option>
   </component>
@@ -264,7 +231,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="11其他" />
+              <option name="myItemId" value="4-2文本字体显示" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,21 +245,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10规范" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css_note" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css_note" />
+              <option name="myItemId" value="4-2文本字体显示" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="9布局" />
+              <option name="myItemId" value="字体图标" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,7 +362,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.240625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -445,41 +402,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3盒模型/4box-margin负边距.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3盒模型/5解决父子外边距合并.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3盒模型/1-2行内元素margin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3盒模型/2box-margin 合并问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3盒模型/6inline-block和inline的margin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3盒模型/行内元素的margin-padding.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -739,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9布局/8-1媒体查询.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39831528">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/技巧总结/1隐藏元素.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.38387486">
@@ -774,20 +689,6 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.96859294">
             <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11其他/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -823,7 +724,7 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
+          <first_editor vertical-scroll-proportion="3.4233668">
             <caret line="109" column="3" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="18" />
             <folding />
           </first_editor>
@@ -833,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9布局/7-5垂直居中(弹出框未知宽高)3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.6875">
+        <state vertical-scroll-proportion="0.5270758">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
@@ -841,7 +742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9布局/7-6垂直居中(vertical-align)4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.1875">
+        <state vertical-scroll-proportion="1.0084236">
           <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding />
         </state>
@@ -849,8 +750,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9布局/7-7垂直居中(vertical-align应用)5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037304454">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state vertical-scroll-proportion="-18.9375">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9布局/8-1媒体查询.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.84375">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10规范/常见命名1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11其他/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="4.0515075">
+            <caret line="129" column="14" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11其他/遮罩.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.34375">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2文本字体显示/字体图标/6字体图标2-class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2文本字体显示/字体图标/6字体图标.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.5">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2文本字体显示/字体图标/fontawsome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48134777">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>

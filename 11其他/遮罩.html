@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div1{
+            height: 100px;
+            background: yellow;
+        }
+        .box{
+            border: 1px solid black;
+        }
+        .box::before{
+            content: "";
+            display: block;
+            background: rgba(255,0,0,0.5);
+            /*这种写法不生效，父元素body高度默认为 auto，据此无法计算子元素的高度；一般设置高度为100%没有生效，多为此原因*/
+/*            width: 100%;
+            height: 100%;*/
+
+            /*屏幕遮罩，父元素高度即使默认为auto，也可生效*/
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap" style="position: relative;margin-top: 100px">
+    <div class="box">
+        <div class="div1">div1 div1 div1</div>
+    </div>
+</div>
+
+</body>
+</html>
