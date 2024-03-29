@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<form action="get" name="myForm" id="form1">
+    <input type="text" name="uname" placeholder="请输入姓名"> <br>
+    正则：<input type="text" pattern="\d{1,5}"> <br>
+    <input type="submit" value="提交">
+</form>
+    <div>
+        表单外输入框：<input type="email" form="form1">
+    </div>-->
+
+<form action="/regist" method="post" name="myForm" id="form1">
+    <div>
+        <label for="username">姓名:</label>
+        <input type="text" id="username" name="" placeholder="用户名">
+    </div>
+    <div>
+        <label for="pwd">密码:</label>
+        <input type="password" id="pwd" name="" value="12345678" >
+    </div>
+    <div>
+        <label >性别:</label>
+        <input type="radio"  name="sex" value="male" checked>男
+        <input type="radio"  name="sex" value="female">女
+    </div>
+    <div>
+        <label >取向:</label>
+        <input type="radio"  name="favor" value="male">男
+        <input type="radio"  name="favor" value="female" checked>女
+    </div>
+    <div>
+        <label >爱好:</label>
+        <input type="checkbox"  name="hobby" value="game">dota
+        <input type="checkbox"  name="hobby" value="travelling" checked>旅游
+        <input type="checkbox"  name="hobby" value="pet" checked>宠物
+    </div>
+    <div>
+        <label >评论:</label>
+        <textarea name="comment"   cols="30" rows="10">
+            ddd
+        </textarea>
+    </div>
+    <div>
+        <label >我的car:</label>
+        <select name="myCar" >
+            <option value="sabb" selected>萨博</option>
+            <option value="volve">沃尔沃</option>
+            <option value="lotus">莲花</option>
+        </select>
+        <input type="submit" value="提交">
+    </div>
+</form>
+</body>
+</html>
