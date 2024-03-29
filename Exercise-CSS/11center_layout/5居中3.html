@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ct{
+            background: #ccc;
+            width: 80%;
+            height: 200px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .btn{
+            background: red;
+            color: #fff;
+            border: 0;
+            border-radius: 3px;
+            font-size: 22px;
+            padding: 10px;
+        }
+        .content{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+<!--实现如下居中方式，并附上 Demo 链接
+要求：并列三个按钮，在父容器内水平居中
+<img src="./居中3.jpg" alt="">-->
+    <div class="ct">
+        <div class="content">
+            <input type="button" class="btn" value="按钮1">
+            <input type="button" class="btn" value="按钮2">
+            <input type="button" class="btn" value="按钮3">
+        </div>
+    </div>
+</body>
+</html>

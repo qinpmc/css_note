@@ -1,0 +1,28 @@
+/*通用样式-重置+通用*/
+body{
+    margin:0;padding:0;font:14px/1.5  Helvetica,Arial,"Microsoft Yahei";
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,textarea,p,pre,blockquote{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    border: none;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}

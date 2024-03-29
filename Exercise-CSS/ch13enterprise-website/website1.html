@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_839790_cju8o30mtxr.css">
+    <style>
+        body,html{
+            height: 100%;
+        }
+        header{
+            color: #fff;
+        }
+        header{
+            position: relative;
+            height: 100%;
+            min-height: 600px;/*避免盒子内内容过多（但盒子高度无法确定），但盒子高度很小时，内部的内容溢出，设置min-height最小高度撑高对象盒子*/
+            background: #000 url("https://chenleoxx.github.io/demos/companypage/images/%E9%A6%96%E9%A1%B52.jpg") no-repeat;
+            background-size: cover;
+        }
+        header::before{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top:0;
+            content: "";
+            display: block;
+            background: rgba(255,255,255,0.2);
+        }
+        header .logo{
+            font-size: 34px;
+            color:#f7ba3e;
+            float: left;
+        }
+        header .nav{
+            float: right;
+        }
+        header .nav >li{
+            float: left;
+            margin: 10px;
+        }
+
+        header .nav a{
+            color: #fff;
+            font-size:16px;
+            padding: 5px;
+            display: inline-block; /*a 行内元素，使用padding撑开，改变display*/
+        }
+        header .nav a:hover{
+            background: #f7ba3e;
+            border-radius: 4px;
+        }
+        .layout{
+            width: 1300px;
+            margin: 0 auto;
+        }
+        .intro{
+            text-align: center;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+        }
+        header .btn{
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 10px 20px;
+            background: yellow;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        header .btn:hover{
+            background: greenyellow;
+        }
+        header h2{
+            font-size: 30px;
+        }
+        header h1{
+            margin-top: 40px;
+            font-size: 40px;
+        }
+        main{
+            color: #000;
+        }
+
+        section{
+            text-align: center;
+            margin-top: 20px;
+        }
+        section >h2{
+            font-size: 40px;
+        }
+        section >p{
+            margin-top: 20px;
+            font-size: 28px;
+        }
+        section .family-intro li{
+            float: left;
+            width: calc(33.33%);
+            padding: 20px;
+        }
+        section .iconfont{
+            background: yellow;
+            border-radius: 50%;
+            font-size: 50px;
+        }
+        section h3{
+            margin-bottom: 20px;
+        }
+        section .family figure{
+            width: calc(33.33% - 20px);
+            height: 240px;
+            float: left;
+            margin: 10px;
+        }
+        section .family a{
+            display: block;
+            height: 180px;
+        }
+        section .family img{
+            width: 100%;
+            height: 100%;
+            vertical-align: bottom; /*消除包裹的a标签高度略高于img高度*/
+        }
+        section .family figcaption{
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        section .family p{
+            margin-top: 10px;
+        }
+        section .timeline{
+            position: relative;
+        }
+        section .timeline>li:nth-child(odd){
+            margin-top: 50px;
+            padding-right: calc(50% - 50px);
+        }
+        section .timeline>li:nth-child(even){
+            margin-top: 50px;
+            padding-left: calc(50% - 50px);
+        }
+        section .timeline>li::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        section .timeline img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border:3px solid lightskyblue;
+        }
+
+        section .timeline>li:nth-child(odd) img{
+            float: right;
+        }
+        section .timeline>li:nth-child(even) img{
+            float:left;
+        }
+        section .timeline  li:nth-child(odd) dl{
+            margin-right: 120px;
+        }
+        section .timeline  li:nth-child(even) dl{
+            margin-left: 120px;
+        }
+
+        section .timeline  dt{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        section .timeline  dd:nth-child(2){
+            font-weight: bold;
+        }
+
+        section .timeline .linethrough{
+            content: "";
+            display: block;
+            border: 1px solid lightskyblue;
+            height: 100%;
+            position: absolute;
+            top:0%;
+            left: 50%;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar clearfix layout">
+            <a href="" class="logo">Game of Thrones</a>
+            <ul class="nav">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Family</a></li>
+                <li><a href="#">Character</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="intro layout">
+            <h2>WINTER IS COMMING.</h2>
+            <h1>ALONE WOLF DEATH,WOLVES LIVE.</h1>
+            <a href="" class="btn">Tell me more</a>
+        </div>
+    </header>
+    <main class="layout">
+        <section>
+            <h2>家族介绍</h2>
+            <p>关于各个家族的介绍</p>
+            <ul class="clearfix family-intro">
+                <li><span class="iconfont icon-jiashu"></span>
+                    <h3>徒利家族</h3>
+                    <p>徒利家族的历史最早可以追溯到先民时代。第一位艾德慕·徒利与“正义之锤”特里斯蒂芬四世并肩作战，赢得九十九场战斗的胜利。特里斯蒂芬死后，艾德慕爵士臣服于当时最强大的安达尔征服者Armistead Vance。</p>
+                </li>
+                <li><span class="iconfont  icon-jd"></span>
+                    <h3>坦格利安家族</h3>
+                    <p>坦格利安家族并非维斯特洛的原住民，他们源自东大陆的瓦雷利亚自由堡垒。古时四十支家族竞逐自由堡垒的统治权力，其中之一的坦格利安家族的势力远逊于当时最有权势的家族。因而逃过摧毁了自由堡垒文明的大灾变。</p>
+                </li>
+                <li><span class="iconfont icon-qiye1"></span>
+                    <h3>拜拉席恩家族</h3>
+                    <p>拜拉席恩家族的创始人是坦格利安创始人伊耿一世的私生兄弟奥利斯拜拉席恩，后世统一黑发的样子应该是龙石岛的土著女仆。家族族徽一头雄鹿(神似法拉利)。奥利斯继承了杜兰登家族的祖徽和箴言，由此拜拉席恩家族开始统治风暴地。</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>FAMILY</h2>
+            <p>《权力的游戏》是美国HBO电视网制作推出的一部中世纪史诗奇幻题材的电视剧.</p>
+            <div class="family clearfix">
+                <figure>
+                    <a href=""><img src="http://img.zcool.cn/community/01711a59fabf90a801202b0c970ded.jpg@1280w_1l_2o_100sh.jpg" alt=""></a>
+                    <figcaption>House Starks</figcaption>
+                    <p>Winter is coming</p>
+                </figure>
+                <figure>
+                    <a href=""><img src="http://img.zcool.cn/community/01711a59fabf90a801202b0c970ded.jpg@1280w_1l_2o_100sh.jpg" alt=""></a>
+                    <figcaption>House Starks</figcaption>
+                    <p>Winter is coming</p>
+                </figure>
+                <figure>
+                    <a href=""><img src="http://img.zcool.cn/community/01711a59fabf90a801202b0c970ded.jpg@1280w_1l_2o_100sh.jpg" alt=""></a>
+                    <figcaption>House Starks</figcaption>
+                    <p>Winter is coming</p>
+                </figure>
+                <figure>
+                    <a href=""><img src="http://img.zcool.cn/community/01711a59fabf90a801202b0c970ded.jpg@1280w_1l_2o_100sh.jpg" alt=""></a>
+                    <figcaption>House Starks</figcaption>
+                    <p>Winter is coming</p>
+                </figure>
+                <figure>
+                    <a href=""><img src="http://img.zcool.cn/community/01711a59fabf90a801202b0c970ded.jpg@1280w_1l_2o_100sh.jpg" alt=""></a>
+                    <figcaption>House Starks</figcaption>
+                    <p>Winter is coming</p>
+                </figure>
+                <figure>
+                    <a href=""><img src="http://img.zcool.cn/community/01711a59fabf90a801202b0c970ded.jpg@1280w_1l_2o_100sh.jpg" alt=""></a>
+                    <figcaption>House Starks</figcaption>
+                    <p>Winter is coming</p>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>ABOUT</h2>
+            <p>Winter Is Comming!</p>
+            <ul class="timeline">
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <li>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2557391501,4119210283&fm=26&gp=0.jpg" alt="">
+                    <dl>
+                        <dt>April 2011</dt>
+                        <dd>Game of Thrones Season 1</dd>
+                        <dd>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</dd>
+                    </dl>
+                </li>
+                <span class="linethrough"></span>
+            </ul>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

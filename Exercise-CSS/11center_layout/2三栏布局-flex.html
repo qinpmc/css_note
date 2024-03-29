@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .sidebar,.extra {
+            width: 200px;
+            height: 400px;
+            background: red;
+        }
+        .main {
+            flex: 1;
+            height: 500px;
+            margin: 0 10px;
+            background: blue;
+        }
+
+        .extra {
+            order: 1;
+        }
+        .main {
+            order: 2;
+        }
+        .sidebar {
+            order: 3;
+        }
+    </style>
+</head>
+<body>
+<!--实现一个三栏布局，两侧固定宽度200px，中间宽度自适应撑满-->
+<!--使用 flex 布局,好处是对 Dom 顺序无要求 -->
+<div class="sidebar">sidebar</div>
+<div class="main">main</div>
+<div class="extra">extra</div>
+
+</body>
+</html>
