@@ -1,14 +1,30 @@
 # transition
 1. transition-property：过渡属性
 2. transition-duration：过渡时间
-3. transition-delay：延迟时间
-transition-timing-function 运动类型
+3. transition-timing-function 运动类型
   - ease 逐渐变慢（默认值）
   - linear：匀速
   - ease-in ：加速
   - ease-out：减速
   - ease-in-out：先加速后减速
   - cubic-bezier：贝塞尔曲线
+4. transition-delay：延迟时间
+
+transition CSS 属性是 transition-property、transition-duration、transition-timing-function 和 transition-delay 的一个简写属性。
+
+```
+
+/* property name | duration | timing function | delay */
+transition: margin-right 4s ease-in-out 1s;
+
+
+/* 简写形式，同时设置多个属性 */
+transition: width 0.5s ease-in-out 0.1s, height 0.3s ease-out;
+
+
+```
+
+
 
 ```
 <style>

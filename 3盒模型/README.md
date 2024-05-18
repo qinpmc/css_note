@@ -95,7 +95,7 @@ margin：外边距,四个方向可以合写，也可以单独写，其值可以�
 
 - 父子合并 （2box-margin 合并问题.html）
 - 相邻合并（2box-margin 合并问题.html）
-- 自己合并（自身内部无内容）（3box-margin 合并问题2.html)
+- 自己合并（自身内部无内容）（3box-margin 合并问题2.html，空div的 margin: 30px; 正常应该上下各有30px边距，但是实际只有30px)
  
 ### 外边距合并的解决
 

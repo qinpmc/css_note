@@ -175,6 +175,8 @@ background-color: #e5eecc;
  - 伪元素必须放在该伪元素选择器的最后面
   p:first-line em 非法
 
+! 注意伪元素选择器是 :: , 而伪类选择器为 :  
+
 ### 示例
 ```
 <!DOCTYPE html>
