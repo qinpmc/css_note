@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .ct{
+        .ct {
             width: 280px;
             height: 300px;
-            border:1px solid black;
+            border: 1px solid black;
             margin: 100px;
 
         }
-        .box{
+
+        .box {
             width: 100px;
             height: 100px;
         }
-        .box1{
-            background:blue ;
+
+        .box1 {
+            background: blue;
             float: left;
             opacity: 0.6;
         }
-        .box2{
-            background:pink ;
+
+        .box2 {
+            background: pink;
             height: 110px;
             width: 120px;
-            /*overflow: hidden;*/  /*盒子移动了？*/
+            /*overflow: hidden;*/
+            /*盒子移动了？*/
         }
     </style>
 </head>
+
 <body>
     <div class="ct">
         <div class="box box1">第一个盒子box1</div>
-        <div class="box box2"  >第二个盒子看不见浮动box1,文本可以看见浮动盒，块盒子背景跑到盒子下方</div>
-        <!--<span>正常的行内元素，不会跑到浮动元素下方</span>-->
+        <div class="box box2">第二个盒子看不见浮动box1,文本可以看见浮动盒，块盒子背景跑到盒子下方</div>
+        <!-- <span>正常的行内元素，不会跑到浮动元素下方</span> -->
     </div>
 </body>
+
 </html>

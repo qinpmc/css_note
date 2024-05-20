@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .parent1{
+        .parent1 {
             width: 400px;
             height: 400px;
             background: blue;
             position: absolute;
             z-index: 2;
         }
-        .son1{
+
+        .son1 {
             position: relative;
-            z-index: 1;
+            z-index: 11;
             width: 200px;
             height: 200px;
-            background: black;
+            background: blueviolet;
         }
-        .parent2{
-            width: 300px;
-            height: 300px;
+
+        .parent2 {
+            width: 500px;
+            height: 500px;
             background: red;
             position: absolute;
             z-index: 1;
-        }
-        .son2{
-            width: 100px;
-            height: 100px;
-            position: relative;
-            z-index: 2;
-            background: blanchedalmond;
+            /* z-index: 11; */
         }
 
+        .son2 {
+            width: 480px;
+            height: 480px;
+            position: relative;
+            z-index: 22;
+            background: darkred;
+        }
     </style>
 </head>
+
 <body>
-<div class="parent1">
-    <div class="son1"></div>
-</div>
-<div class="parent2">
-    <div class="son2"></div>
-</div>
+    z-index 一般都是同级元素比较，子元素和父元素比较，z-index并不遵守 值越大 约在上的规律;
+    父级元素parent1 的 z-index 为2，子元素son1的 z-index 为11, 父元素parent2 的 z-index 为1，子元素son2 的 z-index 为22,
+    所以 son1子元素覆盖 son2 子元素
+    <div class="parent1">
+        <div class="son1"></div>
+    </div>
+    <div class="parent2">
+        <div class="son2"></div>
+    </div>
 </body>
+
 </html>

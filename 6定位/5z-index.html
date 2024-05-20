@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
-        /*z-index 一般都是同级元素比较，子元素和父元素比较，z-index并不遵守 值越大 约在上的规律*/
-   /*     父级元素z-index 为10，仍然在下方；子级元素 son1 z-index为2，子级元素 son2 z-index为1，
-        所以 son1子元素覆盖 son2 子元素*/
-        .parent{
+        /*z-index 一般都是同级元素比较，元素 z-index 值越大的在上方 */
+        .parent {
             height: 200px;
             width: 200px;
             background: green;
             z-index: 10;
             position: relative;
         }
-        .son1{
+
+        .son1 {
             height: 100px;
             width: 100px;
             background: yellow;
             z-index: 2;
             position: absolute;
         }
-        .son2{
+
+        .son2 {
             height: 100px;
             width: 100px;
             background: red;
@@ -30,13 +31,14 @@
             text-align: right;
             left: 50px;
         }
-
     </style>
 </head>
+
 <body>
     <div class="parent">
         <div class="son1">son1</div>
         <div class="son2">son2</div>
     </div>
 </body>
+
 </html>
