@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html,
+        * {
+            margin: 0;
+        }
+
+        .container {
+            border: 1px solid red;
+            margin: 1em auto;
+            max-width: 500px;
+        }
+
+        .content {
+            border: 1px solid burlywood;
+
+        }
+
+        .clearfix:after {
+            /*可以多处使用----项目常用方式*/
+            display: block;
+            clear: both;
+            content: "";
+        }
+
+        img {
+            float: left;
+            margin: 0 0 1em 1em;
+            /* max-width: 100%; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span>不......这个图片比包含它的元素还高， 而且它是浮动的，于是它就溢出到了容器外面！</span>
+        <img src="./ilta.png" alt="">
+    </div>
+
+    <div style="height: 400px;"></div>
+    <div class="container clearfix">
+        <span>清浮动......清浮动清浮动清浮动清浮动清浮动清浮动清浮动清浮动清浮动清浮动清浮动</span>
+        <img src="./ilta.png" alt="">
+    </div>
+
+</body>
+
+</html>

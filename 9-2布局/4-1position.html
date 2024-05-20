@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html {
+            font: 20px;
+        }
+
+        div {
+            height: 120px;
+            border: 2px solid brown;
+        }
+
+        .static {
+            position: static;
+            background-color: goldenrod;
+        }
+
+        .relative1 {
+            position: relative;
+            background-color: greenyellow;
+        }
+
+        .relative2 {
+            position: relative;
+            top: -20px;
+            left: 20px;
+            background-color: green;
+            width: 500px;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 200px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="static">static</div>
+    <div class="static">static</div>
+    <hr>
+    <div class="relative1">relative1-正常</div>
+    <div class="relative2">relative2-top: -20px; left: 20px;</div>
+    <hr>
+
+    <div class="fixed">fixed div</div>
+</body>
+
+</html>
